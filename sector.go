@@ -17,6 +17,7 @@ type Planet struct {
 	Ecosystem   string
 	EModRating  int
 	nextStep    string
+	Description string
 }
 
 type Star struct {
@@ -28,9 +29,10 @@ type Star struct {
 }
 
 type StarSystem struct {
-	Name    string
-	Stars   []Star
-	Planets []Planet
+	Name       string
+	Stars      []Star
+	Planets    []Planet
+	planetCode []int
 }
 
 func NewStar(clss string) *Star {
@@ -122,9 +124,27 @@ func NewGardenPlanet(template int) *Planet {
 		p.Ecosystem = "Lifeless"
 		p.EModRating = 0
 		p.nextStep = "H"
+
 	default:
 	}
+	return &p
+}
 
+func NewHotZonePlanet(template int) *Planet {
+	p := Planet{}
+	p.Description = "This planet is too close to the sun to support life"
+	return &p
+}
+
+func NewColdZonePlanet(template int) *Planet {
+	p := Planet{}
+	p.Description = "This rocky planet too far from the sun to support life"
+	return &p
+}
+
+func NewOuterGasGigant(template int) *Planet {
+	p := Planet{}
+	p.Description = "Large gaseous planet."
 	return &p
 }
 
@@ -138,12 +158,33 @@ func (p *Planet) toString() string {
 	return str
 }
 
+func (p *Planet) describe() string {
+	return p.Description
+}
+
 func NewStarSystem(template int) *StarSystem {
 	system := StarSystem{}
 	switch template {
 	case 3:
 		system.Stars = append(system.Stars, *NewStar("C"))
 		system.Stars[0].description = "Old Red Giant Star"
+		system.planetCode = []int{3, 1, 2, 3} //[]int{4, 0, 1, 3}
+		for i := range system.planetCode {
+			for j := 0; j < system.planetCode[i]; j++ {
+				switch i {
+				case 0:
+					system.Planets = append(system.Planets, *NewHotZonePlanet(1))
+				case 1:
+					system.Planets = append(system.Planets, *NewGardenPlanet(1))
+				case 2:
+					system.Planets = append(system.Planets, *NewColdZonePlanet(1))
+				case 3:
+					system.Planets = append(system.Planets, *NewOuterGasGigant(1))
+				default:
+				}
+			}
+		}
+
 		//planets :
 	default:
 
@@ -157,11 +198,12 @@ func main() {
 	fmt.Println(randFloat(48, 16, 1))
 	fmt.Println("random =", roll1dX(100, 0))
 	fmt.Println("--------------------")
-	fmt.Println(NewStar("Black Hole").toString())
-	fmt.Println(NewStar("A").toString())
-	fmt.Println(NewStar("F").toString())
-	fmt.Println(NewStar("G").toString())
 
 	syst := NewStarSystem(3)
 	fmt.Println(syst.Stars[0].toString())
+	for i := range syst.Planets {
+		fmt.Println(syst.Planets[i].toString())
+		fmt.Println(syst.Planets[i].describe())
+		fmt.Println("-------------")
+	}
 }
