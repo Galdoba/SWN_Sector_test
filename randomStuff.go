@@ -13,7 +13,7 @@ func FloatToString(input_num float64, roundLimit int) string {
 
 func randFloat(min, max float64, n int) float64 {
 	res := min + rand.Float64()*(max-min)
-	res = toFixed(res, 3)
+	res = toFixed(res, 4)
 	return res
 }
 
