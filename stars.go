@@ -60,12 +60,13 @@ func NewStar(clss string) *Star {
 		star.starColor = "Black"
 		star.temperature = randFloat(0, 0, 3)
 		star.mass = randFloat(0, 0, 2)
-		r := randInt(1, 2)
-		if r == 1 {
-			star.description = "Black Hole with companion orange star it is being drawn into its gravity well. Powerful tidal forces make this system extremly Hazardous"
-		} else {
-			star.description = "The system contains the broken remnants of planets."
-		}
+		star.description = "Black Hole with companion orange star it is being drawn into its gravity well. Powerful tidal forces make this system extremly Hazardous. The system contains the broken remnants of planets."
+	case "Neutron Star":
+		star.starColor = "White"
+		star.temperature = randFloat(0, 0, 3)
+		star.mass = randFloat(0, 0, 2)
+		star.description = "Neutron Star, a tiny collapsed remnant of a star that went supernova. It exhibits strong gravity and radioactivity). Few remnants of the star’s system survived its nova."
+
 	default:
 		star.starColor = ""
 		star.temperature = randFloat(0, 0, 3)
@@ -81,6 +82,9 @@ func (s *Star) toString() string {
 	str = str + "Star Color : " + s.starColor + "\n"
 	str = str + "Temperature: " + FloatToString(s.temperature, 3) + " k\n"
 	str = str + "Mass       : " + FloatToString(s.mass, 2) + "  M\n"
-	str = str + "Description: " + s.description + "\n"
+	if s.description != "" {
+		str = str + "Description: " + s.description + "\n"
+	}
+
 	return str
 }

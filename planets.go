@@ -11,8 +11,8 @@ type Planet struct {
 	Hydrosphere int
 	Ecosystem   string
 	EModRating  int
-	nextStep    string
 	Description string
+	nextStep    string
 }
 
 func NewGardenPlanet(template int) *Planet {
@@ -53,7 +53,7 @@ func NewOuterGasGigant(template int) *Planet {
 
 func (p *Planet) toString() string {
 	str := ""
-	str = str + "Planet Name        : " + p.Name + "\n"
+	str = str + "Planet Name: " + p.Name + "\n"
 	if p.Climate != "" {
 		str = str + "Gravity            : " + FloatToString(p.Gravity, 1) + "g\n"
 		str = str + "Atmosphere Pressure: " + p.Pressure + "\n"
