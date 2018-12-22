@@ -36,3 +36,41 @@ func roll1dX(x int, mod int) int {
 func randInt(min int, max int) int {
 	return min + rand.Intn(max)
 }
+
+func romanNumberStr(i int) string {
+	res := ""
+	switch i {
+	case 1:
+		res = "I"
+	case 2:
+		res = "II"
+	case 3:
+		res = "III"
+	case 4:
+		res = "IV"
+	case 5:
+		res = "V"
+	case 6:
+		res = "VI"
+	case 7:
+		res = "VII"
+	case 8:
+		res = "VIII"
+	case 9:
+		res = "IX"
+	case 10:
+		res = "X"
+	case 11:
+		res = "XI"
+	case 12:
+		res = "XII"
+	case 13:
+		res = "XIII"
+	case 14:
+		res = "XIV"
+	case 15:
+		res = "XV"
+	default:
+	}
+	return res
+}
