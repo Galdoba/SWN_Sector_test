@@ -11,16 +11,17 @@ const (
 )
 
 type Planet struct {
-	Name        string
-	Gravity     float64
-	Moons       string
-	Pressure    string
-	Climate     string
-	Hydrosphere int
-	Ecosystem   string
-	EModRating  int
-	Description string
-	nextStep    string
+	Name                       string
+	Gravity                    float64
+	Moons                      string
+	Pressure                   string
+	Climate                    string
+	Hydrosphere                int
+	Ecosystem                  string
+	EModRating                 int
+	Description                string
+	DominantIndigenousLifeForm string
+	nextStep                   string
 }
 
 func NewGardenPlanet(template int) *Planet {
@@ -732,6 +733,9 @@ func NewGardenPlanet(template int) *Planet {
 	}
 	p.Ecosystem = p.createEcoSystem(p.EModRating)
 	p.Pressure = p.createAtmosphere(p.Gravity)
+	if p.nextStep == "F" {
+		p.DominantIndigenousLifeForm = getDominantIndigenousLifeForm()
+	}
 	return &p
 }
 
@@ -840,4 +844,57 @@ func (p *Planet) describe() string {
 		return p.Description
 	}
 	return "@@No Description"
+}
+
+func getDominantIndigenousLifeForm() string {
+	r := roll1dX(10, 0)
+	switch r {
+	case 1:
+		sl := []string{
+			"Amoeba",
+			"Jellyfish",
+			"Worm",
+		}
+		return getRandomFromSliceStr(sl)
+	case 2:
+		sl := []string{
+			"Insect",
+			"Crustacean",
+			"Arachnid",
+		}
+		return getRandomFromSliceStr(sl)
+	case 3:
+		sl := []string{
+			"Fish",
+			"Cephalopod",
+			"Amphbian",
+		}
+		return getRandomFromSliceStr(sl)
+	case 4:
+		return "Mammal"
+	case 5:
+		return "Mammal"
+	case 6:
+		return "Mammal"
+	case 7:
+		sl := []string{
+			"Reptile",
+			"Bird",
+		}
+		return getRandomFromSliceStr(sl)
+	case 8:
+		sl := []string{
+			"Reptile",
+			"Bird",
+		}
+		return getRandomFromSliceStr(sl)
+	case 9:
+		sl := []string{
+			"Plant",
+			"Fungus",
+		}
+		return getRandomFromSliceStr(sl)
+	default:
+	}
+	return "Unknown"
 }
