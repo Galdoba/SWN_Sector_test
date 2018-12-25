@@ -21,6 +21,7 @@ type Planet struct {
 	EModRating                 int
 	Description                string
 	DominantIndigenousLifeForm string
+	IndigenousIntelligence     string
 	nextStep                   string
 }
 
@@ -735,6 +736,7 @@ func NewGardenPlanet(template int) *Planet {
 	p.Pressure = p.createAtmosphere(p.Gravity)
 	if p.nextStep == "F" {
 		p.DominantIndigenousLifeForm = getDominantIndigenousLifeForm()
+		p.getIndigenousIntelligence()
 	}
 	return &p
 }
@@ -834,6 +836,10 @@ func (p *Planet) toString() string {
 		str = str + "Climate    : " + p.Climate + "\n"
 
 	}
+	if p.DominantIndigenousLifeForm != "" {
+		str = str + "Dominant LifeForm: " + p.DominantIndigenousLifeForm + "\n"
+		str = str + "Ingenious Intelligence: " + p.IndigenousIntelligence + "\n"
+	}
 	str = str + "Moons      : " + p.Moons + "\n"
 	str = str + p.Description + "\n"
 	return str
@@ -897,4 +903,40 @@ func getDominantIndigenousLifeForm() string {
 	default:
 	}
 	return "Unknown"
+}
+
+func (p *Planet) getIndigenousIntelligence() {
+	r := roll1dX(12, 0)
+	if r > 9 {
+		p.getSentientLifeformTechRating()
+	}
+	p.nextStep = "G"
+	p.IndigenousIntelligence = "None observable"
+}
+
+func (p *Planet) getSentientLifeformTechRating() {
+	r := roll1dX(8, -1)
+	if r < 0 {
+		r = 0
+	}
+	switch r {
+	case 0:
+		p.IndigenousIntelligence = "TR 0: Animalistic/Feral State"
+	case 1:
+		p.IndigenousIntelligence = "TR 1: Stone Age (Fire)"
+	case 2:
+		p.IndigenousIntelligence = "TR 2: Bronze Age (Agriculture)"
+	case 3:
+		p.IndigenousIntelligence = "TR 3: Iron Age (Metalworking)"
+	case 4:
+		p.IndigenousIntelligence = "TR 4: Medieval Age (Architecture)"
+	case 5:
+		p.IndigenousIntelligence = "TR 5: Age of Sail (Gunpowder)"
+	case 6:
+		p.IndigenousIntelligence = "TR 6: Industrial Age (Steam Engines)"
+	case 7:
+		p.IndigenousIntelligence = "TR 7: Electrical Age (Radio)"
+	default:
+	}
+	p.nextStep = "G"
 }
