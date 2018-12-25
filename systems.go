@@ -543,17 +543,19 @@ func (system *StarSystem) registerSystem() {
 func (system *StarSystem) fillOrbits() {
 	system.Planets = nil
 	plTracker := 0
+
 	for i := range system.planetCode {
 		for j := 0; j < system.planetCode[i]; j++ {
+			templ := randInt(1, 100)
 			switch i {
 			case 0:
-				system.Planets = append(system.Planets, *NewHotZonePlanet(1))
+				system.Planets = append(system.Planets, *NewHotZonePlanet(templ))
 			case 1:
-				system.Planets = append(system.Planets, *NewGardenPlanet(1))
+				system.Planets = append(system.Planets, *NewGardenPlanet(templ))
 			case 2:
-				system.Planets = append(system.Planets, *NewColdZonePlanet(1))
+				system.Planets = append(system.Planets, *NewColdZonePlanet(templ))
 			case 3:
-				system.Planets = append(system.Planets, *NewOuterGasGigant(1))
+				system.Planets = append(system.Planets, *NewOuterGasGigant(templ))
 			default:
 			}
 			system.Planets[plTracker].Name = system.Name + " " + romanNumberStr(plTracker+1)
