@@ -51,7 +51,7 @@ func NewStarSystem(template int) *StarSystem {
 		system.Stars = append(system.Stars, *NewStar("C"))
 		system.Stars[0].description = "Old Red Giant Star"
 		system.Stars = append(system.Stars, *NewStar("G"))
-		system.Stars[0].description = "Yellow companion"
+		system.Stars[1].description = "Yellow companion"
 		system.Note = "Asteroid Belt"
 		system.planetCode = []int{7, 0, 0, 1}
 	case 9:
@@ -155,6 +155,360 @@ func NewStarSystem(template int) *StarSystem {
 		system.Stars = append(system.Stars, *NewStar("G"))
 		system.Stars[0].description = "Yellow Star"
 		system.planetCode = []int{3, 1, 3, 3}
+	case 30:
+		system.Stars = append(system.Stars, *NewStar("G"))
+		system.Stars[0].description = "Yellow Star"
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[1].description = "Orange Companion"
+		system.planetCode = []int{4, 0, 2, 4}
+		system.Note = "Large Asteroid Belt"
+	case 31:
+		system.Stars = append(system.Stars, *NewStar("G"))
+		system.Stars[0].description = "Yellow Star"
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[1].description = "Red Companion"
+		system.planetCode = []int{4, 1, 3, 4}
+		system.Note = "Asteroid Belt"
+	case 32:
+		system.Stars = append(system.Stars, *NewStar("G"))
+		system.Stars[0].description = "Yellow Star"
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[1].description = "White Dwarf Companion"
+		system.planetCode = []int{4, 2, 0, 5}
+		system.Note = "One Gas Giant has garden type moon"
+	case 33:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.planetCode = []int{2, 1, 3, 3}
+	case 34:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.planetCode = []int{2, 2, 3, 4}
+		system.Note = "Asteroid Belt"
+	case 35:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.planetCode = []int{1, 1, 2, 3}
+	case 36:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.planetCode = []int{1, 1, 3, 2}
+	case 37:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.planetCode = []int{0, 2, 3, 3}
+	case 38:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.planetCode = []int{0, 1, 3, 3}
+	case 39:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.planetCode = []int{2, 1, 4, 4}
+	case 40:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.planetCode = []int{2, 2, 3, 3}
+	case 41:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.planetCode = []int{1, 2, 3, 2}
+	case 42:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.planetCode = []int{1, 1, 4, 3}
+		system.Note = "One Gas Giant has garden type moon"
+	case 43:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.planetCode = []int{2, 0, 2, 3}
+		system.Note = "Asteroid Belt"
+	case 44:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.planetCode = []int{2, 2, 3, 4}
+	case 45:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.planetCode = []int{1, 2, 2, 3}
+	case 46:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.planetCode = []int{2, 1, 3, 3}
+		system.Note = "Asteroid Belt"
+	case 47:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[1].description = "Orange Star"
+		system.planetCode = []int{2, 1, 1, 2}
+		system.Note = "Asteroid Belt"
+	case 48:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[1].description = "Orange Star"
+		system.planetCode = []int{2, 0, 2, 3}
+		system.Note = "Asteroid Belt"
+	case 49:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[1].description = "Red Companion"
+		system.planetCode = []int{2, 1, 3, 3}
+		system.Note = "Asteroid Belt"
+	case 50:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[1].description = "Red Companion"
+		system.planetCode = []int{2, 1, 2, 3}
+		system.Note = "Asteroid Belt"
+	case 51:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[1].description = "Red Companion"
+		system.planetCode = []int{3, 1, 3, 2}
+		system.Note = "Asteroid Belt"
+	case 52:
+		system.Stars = append(system.Stars, *NewStar("K"))
+		system.Stars[0].description = "Orange Star"
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[1].description = "White Dwarf Companion"
+		system.planetCode = []int{2, 0, 2, 3}
+	case 53:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{1, 1, 3, 2}
+	case 54:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{0, 1, 2, 2}
+	case 55:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{0, 0, 4, 1}
+		system.Note = "Asteroid Belt"
+	case 56:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{1, 0, 3, 3}
+	case 57:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{1, 1, 3, 2}
+	case 58:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{1, 1, 2, 4}
+		system.Note = "One Gas Giant has Garden type moon"
+	case 59:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{0, 1, 2, 2}
+	case 60:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{1, 1, 3, 2}
+	case 61:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{0, 1, 2, 2}
+	case 62:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{1, 0, 4, 1}
+		system.Note = "Asteroid Belt"
+	case 63:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{2, 0, 4, 2}
+	case 64:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{0, 0, 3, 4}
+	case 65:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{0, 1, 2, 3}
+	case 66:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{1, 1, 3, 2}
+	case 67:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{1, 0, 3, 3}
+	case 68:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{0, 0, 3, 2}
+	case 69:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{0, 1, 3, 2}
+	case 70:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{1, 1, 2, 4}
+	case 71:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{0, 2, 3, 2}
+	case 72:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{1, 0, 2, 2}
+	case 73:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{0, 0, 4, 3}
+	case 74:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{1, 1, 4, 2}
+	case 75:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{1, 0, 3, 2}
+	case 76:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{0, 1, 3, 3}
+	case 77:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.planetCode = []int{0, 1, 2, 2}
+	case 78:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[1].description = "Small Red Star"
+		system.planetCode = []int{1, 2, 3, 1}
+		system.Note = "Asteroid Belt"
+	case 79:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[1].description = "Small Red Star"
+		system.planetCode = []int{2, 0, 1, 2}
+		system.Note = "Asteroid Belt"
+	case 80:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[1].description = "Small Red Star"
+		system.planetCode = []int{1, 1, 3, 2}
+		system.Note = "Asteroid Belt"
+	case 81:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[1].description = "Small Red Star"
+		system.planetCode = []int{1, 1, 3, 3}
+		system.Note = "Asteroid Belt"
+	case 82:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[1].description = "Small Red Star"
+		system.planetCode = []int{2, 0, 2, 2}
+		system.Note = "Asteroid Belt"
+	case 83:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[1].description = "Small Red Star"
+		system.planetCode = []int{2, 1, 2, 2}
+		system.Note = "Asteroid Belt"
+	case 84:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[1].description = "Small Red Star"
+		system.planetCode = []int{1, 1, 3, 3}
+		system.Note = "Asteroid Belt"
+	case 85:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[1].description = "Small Red Star"
+		system.planetCode = []int{1, 0, 3, 2}
+		system.Note = "Asteroid Belt"
+	case 86:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[1].description = "White Dwarf Companion"
+		system.planetCode = []int{0, 0, 5, 1}
+	case 87:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[1].description = "White Dwarf Companion"
+		system.planetCode = []int{1, 1, 3, 2}
+	case 88:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[1].description = "White Dwarf Companion"
+		system.planetCode = []int{1, 1, 1, 3}
+	case 89:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[1].description = "White Dwarf Companion"
+		system.planetCode = []int{1, 2, 4, 1}
+	case 90:
+		system.Stars = append(system.Stars, *NewStar("M"))
+		system.Stars[0].description = "Small Red Star"
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[1].description = "White Dwarf Companion"
+		system.planetCode = []int{1, 1, 5, 2}
+	case 91:
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[0].description = "Tiny Dim White Dwarf"
+		system.planetCode = []int{0, 0, 1, 0}
+	case 92:
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[0].description = "Tiny Dim White Dwarf"
+		system.planetCode = []int{0, 0, 1, 1}
+	case 93:
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[0].description = "Tiny Dim White Dwarf"
+		system.planetCode = []int{0, 1, 3, 1}
+	case 94:
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[0].description = "Tiny Dim White Dwarf"
+		system.planetCode = []int{0, 0, 4, 1}
+	case 95:
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[0].description = "Tiny Dim White Dwarf"
+		system.planetCode = []int{0, 0, 3, 0}
+	case 96:
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[0].description = "Tiny Dim White Dwarf"
+		system.planetCode = []int{0, 1, 4, 0}
+	case 97:
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[0].description = "Tiny Dim White Dwarf"
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[1].description = "Tiny Dim White Dwarf"
+		system.planetCode = []int{1, 0, 3, 1}
+		system.Note = "Asteroid Belt"
+	case 98:
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[0].description = "Tiny Dim White Dwarf"
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[1].description = "Tiny Dim White Dwarf"
+		system.planetCode = []int{1, 1, 2, 0}
+	case 99:
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[0].description = "Tiny Dim White Dwarf"
+		system.Stars = append(system.Stars, *NewStar("D"))
+		system.Stars[1].description = "Tiny Dim White Dwarf"
+		system.planetCode = []int{0, 1, 2, 0}
 
 	default:
 

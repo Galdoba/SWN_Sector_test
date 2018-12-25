@@ -33,6 +33,14 @@ func roll1dX(x int, mod int) int {
 	return randInt(1, x) + mod
 }
 
+func rollXdY(x int, y int) int {
+	res := 0
+	for i := 0; i < x; i++ {
+		res = res + roll1dX(y, 0)
+	}
+	return res
+}
+
 func randInt(min int, max int) int {
 	return min + rand.Intn(max)
 }
