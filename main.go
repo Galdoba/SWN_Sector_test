@@ -14,7 +14,7 @@ func main() {
 	fmt.Println("random =", temp)
 	fmt.Println("--------------------")
 
-	syst := NewStarSystem(temp)
+	syst := NewStarSystem(16)
 
 	fmt.Println(syst.toString())
 

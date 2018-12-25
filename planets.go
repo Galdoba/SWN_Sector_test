@@ -738,6 +738,9 @@ func NewGardenPlanet(template int) *Planet {
 		p.DominantIndigenousLifeForm = getDominantIndigenousLifeForm()
 		p.getIndigenousIntelligence()
 	}
+	if p.nextStep == "G" {
+
+	}
 	return &p
 }
 
@@ -909,6 +912,7 @@ func (p *Planet) getIndigenousIntelligence() {
 	r := roll1dX(12, 0)
 	if r > 9 {
 		p.getSentientLifeformTechRating()
+		return
 	}
 	p.nextStep = "G"
 	p.IndigenousIntelligence = "None observable"
