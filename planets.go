@@ -740,11 +740,15 @@ func NewGardenPlanet(template int) *Planet {
 	if p.nextStep == "F" {
 		p.DominantIndigenousLifeForm = getDominantIndigenousLifeForm()
 		p.getIndigenousIntelligence()
+		p.nextStep = "G"
 	}
 	if p.nextStep == "G" {
 		if roll1dX(12, p.EModRating) > 10 {
 			p.colony = p.NewColony()
 		}
+		p.nextStep = "H"
+	}
+	if p.nextStep == "H" {
 
 	}
 	return &p
@@ -807,7 +811,7 @@ func (p *Planet) createAtmosphere(grav float64) string {
 	if grav < 1.6 {
 		return "Dense"
 	}
-	if grav < 2.0 {
+	if grav < 2.1 {
 		return "Very Dense"
 	}
 	return "%Error: Unknown"
@@ -923,8 +927,8 @@ func (p *Planet) getIndigenousIntelligence() {
 		p.getSentientLifeformTechRating()
 		return
 	}
-	p.nextStep = "G"
-	p.IndigenousIntelligence = "None observable"
+
+	p.IndigenousIntelligence = "not observable"
 }
 
 func (p *Planet) getSentientLifeformTechRating() {
@@ -951,5 +955,5 @@ func (p *Planet) getSentientLifeformTechRating() {
 		p.IndigenousIntelligence = "TR 7: Electrical Age (Radio)"
 	default:
 	}
-	p.nextStep = "G"
+
 }

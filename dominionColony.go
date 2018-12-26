@@ -151,8 +151,9 @@ func (col *Colony) SetOrigin(template int) {
 	case 12:
 		col.origins = "Utopian Social Experiment"
 	default:
+		col.origins = "Unknown"
 	}
-	col.origins = "Unknown"
+
 }
 
 func (col *Colony) Origins() string {
@@ -186,8 +187,9 @@ func (col *Colony) SetEthnicity(template int) {
 		}
 		col.dominantEthnicity = getRandomFromSliceStr(sl)
 	default:
+		col.dominantEthnicity = "None. There is a diverse population"
 	}
-	col.origins = "None. There is a diverse population"
+
 }
 
 func (col *Colony) toString() string {
@@ -195,6 +197,7 @@ func (col *Colony) toString() string {
 	str = str + "Attention! Human population is present.\n"
 	str = str + "Overal Technological Rating is " + col.TRating.Descrition() + ". "
 	str = str + "Most common goverment system seems to be " + col.goverment + ". "
-	str = str + "Colony origins is " + col.origins + ".\n"
+	str = str + "Colony origins is " + col.origins + ". "
+	str = str + "Dominant Ethnicity " + col.dominantEthnicity + ".\n"
 	return str
 }

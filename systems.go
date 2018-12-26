@@ -565,8 +565,10 @@ func (system *StarSystem) fillOrbits() {
 }
 
 func (s *StarSystem) toString() string {
-	res := ""
+	res := "System Report:\n"
+
 	for i := range s.Stars {
+		res = res + "Star name  : " + s.Stars[i].class + "-" + s.getStarCode() + "\n"
 		res = res + s.Stars[i].toString() + "\n"
 	}
 	if s.Note != "" {
