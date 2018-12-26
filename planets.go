@@ -1,6 +1,8 @@
 package main
 
-import "strconv"
+import (
+	"strconv"
+)
 
 const (
 	climateFrigid    = "Frigid (< -50c)"
@@ -22,6 +24,7 @@ type Planet struct {
 	Description                string
 	DominantIndigenousLifeForm string
 	IndigenousIntelligence     string
+	colony                     *Colony
 	nextStep                   string
 }
 
@@ -739,6 +742,9 @@ func NewGardenPlanet(template int) *Planet {
 		p.getIndigenousIntelligence()
 	}
 	if p.nextStep == "G" {
+		if roll1dX(12, p.EModRating) > 10 {
+			p.colony = p.NewColony()
+		}
 
 	}
 	return &p
@@ -832,6 +838,7 @@ func (p *Planet) toString() string {
 	str := ""
 	str = str + "Planet Name: " + p.Name + "\n"
 	str = str + "Gravity    : " + FloatToString(p.Gravity, 1) + "g\n"
+	str = str + "Moons      : " + p.Moons + "\n"
 	if p.Climate != "" {
 		str = str + "Atmosphere : " + p.Pressure + "\n"
 		str = str + "Hydrosphere: " + strconv.Itoa(p.Hydrosphere) + " %\n"
@@ -840,10 +847,12 @@ func (p *Planet) toString() string {
 
 	}
 	if p.DominantIndigenousLifeForm != "" {
-		str = str + "Dominant LifeForm: " + p.DominantIndigenousLifeForm + "\n"
-		str = str + "Ingenious Intelligence: " + p.IndigenousIntelligence + "\n"
+		str = str + "Survey data indicates that indigenous dominant lifeform type is " + p.DominantIndigenousLifeForm + ". Ingenious intelligence is " + p.IndigenousIntelligence + "\n"
 	}
-	str = str + "Moons      : " + p.Moons + "\n"
+	if p.colony != nil {
+		str = str + p.colony.toString()
+	}
+
 	str = str + p.Description + "\n"
 	return str
 }
