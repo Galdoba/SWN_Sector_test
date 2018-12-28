@@ -25,6 +25,8 @@ type Planet struct {
 	DominantIndigenousLifeForm string
 	IndigenousIntelligence     string
 	colony                     *Colony
+	alienCiv                   *Visitors
+	alienAgenda                string
 	nextStep                   string
 }
 
@@ -738,7 +740,7 @@ func NewGardenPlanet(template int) *Planet {
 	p.Ecosystem = p.createEcoSystem(p.EModRating)
 	p.Pressure = p.createAtmosphere(p.Gravity)
 	if p.nextStep == "F" {
-		p.DominantIndigenousLifeForm = getDominantIndigenousLifeForm()
+		p.DominantIndigenousLifeForm = RandomLifeform()
 		p.getIndigenousIntelligence()
 		p.nextStep = "G"
 	}
@@ -749,6 +751,33 @@ func NewGardenPlanet(template int) *Planet {
 		p.nextStep = "H"
 	}
 	if p.nextStep == "H" {
+		roll := roll1dX(12, 0)
+		if roll < 10 {
+			panic(roll)
+		}
+		// var vis *Visitors
+		// do := 1
+		// if roll > 9 {
+		// 	do = 2
+		// 	if len(VisitorMap) == 0 {
+		// 		do = 3
+		// 	}
+		// }
+		// if roll > 11 {
+		// 	do = 3
+		// }
+
+		// switch do {
+		// case 2:
+		// 	for _, val := range VisitorMap {
+		// 		vis = val
+		// 		break
+		// 	}
+		// case 3:
+		// 	vis = NewVisitors()
+		// default:
+		// }
+		// vis.xenoType = "NONO"
 
 	}
 	return &p
@@ -868,9 +897,8 @@ func (p *Planet) describe() string {
 	return "@@No Description"
 }
 
-func getDominantIndigenousLifeForm() string {
-	r := roll1dX(10, 0)
-	switch r {
+func SetLifeform(template int) string {
+	switch template {
 	case 1:
 		sl := []string{
 			"Amoeba",
@@ -919,6 +947,11 @@ func getDominantIndigenousLifeForm() string {
 	default:
 	}
 	return "Unknown"
+}
+
+func RandomLifeform() string {
+	r := roll1dX(10, 0)
+	return SetLifeform(r)
 }
 
 func (p *Planet) getIndigenousIntelligence() {

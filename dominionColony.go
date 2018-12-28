@@ -20,6 +20,12 @@ func (tr *TechRating) Descrition() string {
 }
 
 func (tr *TechRating) SetTechRating(r int) {
+	if r < 0 {
+		r = 0
+	}
+	if r > 16 {
+		r = 16
+	}
 	tr.rating = r
 	switch tr.rating {
 	case 0:

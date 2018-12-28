@@ -18,4 +18,14 @@ func main() {
 
 	fmt.Println(syst.toString())
 
+	race := NewVisitors()
+	NewVisitors()
+	NewVisitors()
+	fmt.Println(race.toString())
+	fmt.Println("------")
+
+	fmt.Println(VisitorMap[0].toString())
+	fmt.Println(VisitorMap[1].toString())
+	fmt.Println(VisitorMap[2].toString())
+
 }
