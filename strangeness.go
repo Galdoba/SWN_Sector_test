@@ -32,270 +32,42 @@ Roll Phenomenon
 28 Floating in orbit is what appears to be the mummified corpse of a Tyrannosaurus Rex. Weird.
 29 A super-intelligent energy being inhabits this planet. It has been content to observe how the ‘lesser’ races in this system develop over the millennia, but something about the PCs has piqued its interest, and it has decided to give them a test. It has the ability to create holographic illusions and control energy on a massive scale, but is incorporeal, and can only communicate psychically. It is somewhat pedantic in its thinking, and if tricked through logic, it will keep its word.
 30 When approaching this planet for the first time, the ship will pass through a strange magenta energy field. Nothing will appears to have happened, but the field was a space-time distortion. The ship and all its inhabitants have been shrunk by 50%. They will not realize it at first, and all of their sensor readings will be somewhat off, but they will assume that the planets and local lifeforms are just unusually large. (They may suspect, but will not know for sure until they visit a human colony, or revisit a location that they have visited before.) The distortion field is in an erratic orbit around the star, and it may take some work to find again, and figure out how to pass through it in such a way to reverse the effect. (Doing so incorrectly will continue to shrink the ship by 50% each time.
-31 On this world there is a vast and destroyed city overgrown by
-jungle, (if a garden world). At its center, under the shattered
-remains of their largest temple is a machine complex that is
-able to ‘resurrect’ anyone who dies on or near this planet. (The
-range of the effect extends one planetary radius beyond the
-planet’s atmosphere.)
-The machine works by automatically generating a replicant of
-the deceased, if they died anywhere in its range. The resurrected
-emerges from the machine naked but with otherwise
-identical to themselves at the moment of death. (Cybernetic
-implants and scars are not reproduced. Any missing limbs or
-other body parts are fixed. However all resurrected also gain
-a prehensile tail for some reason.) The individual has little to
-work with, but there are enough odds and ends in the city to
-build a working transmitter if they have the technical expertise.
-If there is an indigenous culture on the planet, there would
-be a monastery in the city ruins whose ‘monks’ capture the
-revived, and send them to a necropolis separate from the
-living.
-32 This world seems like it is going through a major seismic
-event—numerous simultaneous volcanic eruptions around
-the planet are causing massive earthquakes, tidal waves, etc.
-If inhabited by intelligent life, the population is being devastated.
-If over TR 10, a planetary evacuation is underway.
-33 There is a comet passing through the system near this world
-and approaching the star(s) at a high rate of speed. Sensors
-indicate that the nucleus of the comet is oddly metallic.
-34 (If this planet is in a multi-star system) When the stars are
-scanned, sensors will show that there is some sort of blueish
-energy beam extending between two of the stars, and at one
-of the LaGrangian points between them, suspended in the
-beam, is a cylindrical object. Solar winds and radiation noise
-make it difficult to get a clearer image.
-35 There is a faint radio signal emitting from the north pole of the
-one of the planet’s moons. Investigation will reveal the remains
-of a crashed ship, still broadcasting a distress signal. The only
-inhabitant is an advanced android of alien craftsmanship. It is
-quite helpful, and will join with the PCs, if asked. It is particularly
-skilled at Jump engine maintenance. It will take the android
-about a day to learn the PCs language. When asked, it claims
-to have no memory of what caused the crash. In fact, it will be
-somewhat evasive when asked any questions about its past.
-36 When passing through this system, a swarm of small glowing
-‘bugs’ will become attracted to the ship. Shortly thereafter, the
-ship will begin losing power at an alarming rate. The bugs will
-not follow the ship into a planet’s atmosphere, but will return
-once the ship returns to space. They are attracted to energy
-sources, and will ignore a powered-down ship. A ship will not
-be able to successfully jump with them around the ship. They
-are too small and fast moving to be stopped by conventional
-ships weapons, but they do have a weakness if the PCs can
-find it.
-37 There is an interstellar visitor base (roll Xenotype and Tech
-Level from Step H) on one of the uninhabited planets or
-moons. Upon investigation, the PCs find that all of the visitors
-are dead, having apparently turned their weapons on each
-other just a few hours previously. Much of their technology
-was destroyed in the firefight, but there are some salvageable
-items, weapons, and supplies. No indication of what caused
-this violent behavior, except for a recording where the leader
-warns “...the demons are pulling the strings...”
-38 If there is a former human colony in this system, they appear to
-be TR 4, and are a perfect copy of their original culture at that
-point in history. They in fact do not realize that they are not on
-Earth, but simply think they are in a remote part their kingdom,
-cut off from the settled lands.
-39 On the surface of one planet there is a black disk. This disk is
-58.3km in diameter, and is perfectly flat and completely frictionless.
-Laser instruments will not be able to find an imperfection,
-and there is no dust or sand on its surface. Tools do not
-seem to have the ability to even scratch its surface.
-40 In this system, one of the gas giants is being pulled into a
-singularity (tiny black hole), as evidenced by the fact it has
-broken orbit and has a long tendril of gas spiraling into a
-nearby point at the center of its new orbit.
-A garden world is also seemingly caught in its pull and has
-been dragged out of its orbital path, toward the singularity.
-41 There is a space junkyard orbiting this world. Could be something
-worth salvaging among those ancient hulks.
-42 Space whale carcass floating in orbit around this planet's star.
-Possibly killed by errant solar flare, or something else...
-43 While approaching this planet, a giant, organic-looking black
-ship jumps out of FTL near the PC’s ship. It seems to study
-them for about 5 minutes, and then jumps again.
-44 If the PCs land and explore the surface, they will be disturbed
-by ghostly images of people from their past. The figures will
-stay just out of reach, but generally seem happy. Further investigation
-will find a nearby alien graveyard, with a opalescent
-sphere on a pedestal that seems to be some kind of holographic
-projector. Covering the sphere will make the images
-go away. Trying to remove the sphere from the pedestal will
-break it irrevocably.
-45 In the vicinity of this planet, the PCs will find a passing alien
-ship which will inquire if they are interested in trade. They will
-find the aliens are slave traders, and have a wide variety of sad
-looking slaves of various races (including human) for sale. They
-are well-armed, and lack a sense of humor.
-46 Orbiting this world is a space brothel, run by a 300kg inscectoid
-pimp named Bar-thak. Their host will allow the PCs as long
-as they have coin to trade, but if they get too nosey about the
-sizable off-limits area. The space brothel is in fact a front operation
-for smugglers. Bar-thak’s goons will try to kick the PCs
-out an airlock. (Note, Alpha Blue could be a good resource for
-fleshing out the station further.)
-47 Shortly after arriving at this world, a ship will approach the PC's
-ship. It is an exploratory ship from a nearby hex, where a TR 10
-world has just discovered FTL. The PCs are the first offworlders
-encountered by this race. (Roll 1d6: 1-4 is human, 5-6 alien
-race.)
-48 While scanning this world, the ship picks up a garbled message
-from a world about 2d4 parsecs away that seems to be a plea
-for help, and something about a deadly outbreak of plague on
-their world.
-49 Sensors pick up an alien ship in outer orbit around this
-world—it appears to be of unknown design, and very old and
-damaged. It is a derelict that has already been picked over.
-The hold however is full of 1 meter diameter spheres that seem
-to be full of a pale orange liquid. (Roll 1d6: 1-2 it’s alien eggs,
-3-4 it’s a shipment of an popular alien soft drink, 5-6 it’s a load
-of expired alien fertility pharmaceuticals, which probably have
-no effect on other species.)
-50 Free trade starport located here. Frequented by TR 10-13
-species from this quadrant. The starport is dank and crowded,
-and anything imaginable is for sale, but everything has a price.
-(Example: PCs will need to purchase “Atmo vouchers” good
-for 15 minutes of breathing station air. Being caught breathing
-station air without a voucher must pay a hefty fine/bribe or
-face losing a lung to the organ bank.)
-51 A luxury spaceliner from a Tech Level 12 world several parsecs
-away is dallying at this world. The crew (and passengers) are
-condescending and snooty to lower tech cultures. Not inclined
-to associate with space riff-raff.
-52 This system is teeming with a bio-organism (like space plankton)
-that will silently build up on the ship’s hull interfering with
-the ship’s ability to make a jump. Getting the ship’s jump capability
-working again requires painstaking scraping off of the hull
-in key areas, or finding a way to remove it long enough make
-the jump. (The organism loves light, so the closer the ship gets
-to the sun, the faster it builds up.)
-53 There is a crashed ship in a marshy area on the surface (if it is a
-garden planet). Its fusion core is still operating, and it is full of
-hundreds of cryotubes, of which 3 are still operating and have
-living occupants. This ship was delivering a load of 'mail order
-brides' to a new human colony. If they are woken up, the occupants
-will not be sure how much time has passed, or exactly
-where their destination is. (The ship’s computer can reveal the
-delivery coordinates if repaired.)
-54 In a wilderness area, there is a ruin visible from the air. The
-stone complex is overgrown with vines and is long forgotten,
-but actually is an old temple. It houses a pylon that is far
-older than this planet's civilization (if there is one). The pylon
-is malfunctioning, and anyone who meddles with it suffers a
-permanent effect: (roll 1d4: 1: Makes them an albino, but also
-now has natural night vision. Regular sunlight is blinding to
-PC and their skin burns very easily. 2: They grow 1/2 meter in
-height, and their strength increases by an additional 50%. Their
-metabolism can now only process protein anything, and else
-makes the PC violently ill. 3: They suffer a devolutionary effect,
-and grow ape-like features. Lose 25% INT, but gain additional
-50% DEX. Also has acute sense of smell. 4: INT increases by
-additional 50%, and gains one psychic ability. The PC’s head
-gets slightly bigger (but they are now completely bald). The
-pylon can only affect a given character once.
-55 There is an A.I. missile called a Nova Bomb floating in space
-near this world. It has limited robot intelligence, but has
-developed self-awareness, and a concept of self-preservation.
-It has lost its will to detonate and destroy this planet. It can be
-reasoned with, and may reveal who sent it, and why.
-56 This planet's star has a research station in low orbit around it,
-with a long metallic probe extending down into the star's core.
-The temperature on the station is very hot, near the boiling
-point. If investigated the PCs will find that the station's crew
-apparently died in some panic, having been “diamond-ized” at
-some point.
-57 Half a space ship is drifting though this planet's system, its
-engines and rear portion having been destroyed in some
-incident. It is being 'piloted' by a cranky android, who is
-patiently waiting for the ship to reach to his destination 2d8
-parsecs away. He doesn't want to be rescued, and will actively
-resist being removed from his ship. He does have access to a
-considerable database of information, and is willing to answer
-questions in exchange for useful parts or resources.
-58 Bears. This world is overrun by vicious bear-like creatures. If
-no life possible on this planet, then they are mechanical, selfreplicating
-bears.
-59 While in the vicinity of this world, a patrol ship will stop and
-board the PC's ship to conduct interrogations. If the PCs resist
-or try to flee, the patrol will use a stun field effect on the ship
-to knock out the PC's and their crew. The patrol is hunting for
-smugglers in this zone of space who have been selling forbidden
-materials. Any contraband on the PCs’ ship will be confiscated.
-The patrol is from a nearby high tech rating world.
-60 This planet has (in addition to any locals ) a brand new TR 9
-agricultural colony that has only been there for 4 years. They
-could really use some help from the PCs, but don't have a lot
-to trade. (They do make a tasty BBQ however.)
-61 If there is intelligent life on this planet, however they are in fact
-a previously encountered visitor race in disguise. Their settlement
-seems innocent enough, but it conceals a secret underground
-military base, and is a vital part of a larger invasion
-plan.
-They will attempt to maintain the deception as long as the
-PCs are in the system, and show them some simple hospitality.
-However they will try to kill the PCs if their secret is discovered,
-in order to prevent them from revealing their secret to their
-enemies.
-62 Something here gives humans an itchy rash if they walk around
-exposed to the atmosphere. The rash lasts for 2d8 days, and
-scratching it causes green pustules to form. The pustules will
-sprout tendrils that grow to 10cm in length. If left alone, they
-will dry up and fall off on their own. But every time there is an
-attempt to cut a tendril, it adds another 1d8 days to the condition
-clearing up. Local species may have a better cure, but
-generally will recommend just "don't pick at it."
-63 In an asteroid belt near this world, PCs will detect a small
-defenseless ship fleeing a larger assault ship. Both are piloted
-by an alien species. The assault ship will try to capture the
-small ship with grapples, and will take it back home with it. If
-the PCs help the small ship escape, they will find a single alien
-occupant, who will claim to be a persecuted scientist escaping
-his planet's dictatorial government. He is actually a mad scientist
-being pursued for his crimes, but he doesn't see it that way.
-At the first opportunity, he will try to knock out the PCs and
-their crew, and use them to continue his experiments. He has
-advanced scientific technology on his ship (TR 15) that only he
-can operate. He is very interested in making the perfect being,
-and will try to use his 'subjects' as recipients of his genius, or
-as spare parts. (His idea of perfection is based on his race's
-ideals, rather than on humanity's.) He is able to make nearly
-perfect duplicates/clones of any of his subjects using one of his
-machines, and will make duplicates of anyone undergoing an
-experiment (as a control group.)
-64 Large ship (50x bigger than PC's ship) passing through this
-planet's system from another dimension. Aliens on board are
-scientists exploring our dimension, and collecting samples
-of alien life. These aliens are 20 meters tall, and have alien
-thought processes. They can be reasoned with, and are not
-malicious, but are not especially sympathetic to the PC’s point
-of view either.
-65 This planet is a low-tech farm colony—workers are kept
-drugged, docile, and happy as they toil in the fields. The overseers
-will show deference to the PCs, but also may try to drug
-the PCs’ food to add them to their work force.
-66 This planet has an island with a single 'human' settlement. The
-settlement is made up of androids, who have low technology,
-except for an ancient factory unit that is able to take a single
-piece of DNA and make a perfect android duplicate, even with
-the same memories of up to the moment the sample was taken
-from the donor. The androids are able to live about 10 years
-before they are recycled. The colony has a supply of DNA they
-use to recreate themselves, but it is running out, and they do
-not know how to build other types of technology. (Their DNA
-is derived from simple farmers who died out a long time ago.)
-They are willing to trade for DNA from individuals who have
-more advanced technical knowledge.
-This planet is in the process of being terraformed. There are 6
-giant robot ships orbiting it, radically altering its atmosphere
-and hydrosphere. Every time the PCs’ ship gets too close, the
-robot ships will launch a missile at the PC’s ship. It is a homing
-missile which can travel slightly faster than the PCs’ ship's max
-movement. It has a range of 1 million miles, but if the PCs can
-get more then 1000 miles away from it, the missile will shut
-down and go dormant. The missile is not intelligent, and is
-very bad at making tight turns.
+31 On this world there is a vast and destroyed city overgrown by jungle, (if a garden world). At its center, under the shattered remains of their largest temple is a machine complex that is able to ‘resurrect’ anyone who dies on or near this planet. (The range of the effect extends one planetary radius beyond the planet’s atmosphere.) The machine works by automatically generating a replicant of the deceased, if they died anywhere in its range. The resurrected emerges from the machine naked but with otherwise identical to themselves at the moment of death. (Cybernetic implants and scars are not reproduced. Any missing limbs or other body parts are fixed. However all resurrected also gain a prehensile tail for some reason.) The individual has little to work with, but there are enough odds and ends in the city to build a working transmitter if they have the technical expertise. If there is an indigenous culture on the planet, there would be a monastery in the city ruins whose ‘monks’ capture the revived, and send them to a necropolis separate from the living.
+32 This world seems like it is going through a major seismic event—numerous simultaneous volcanic eruptions around the planet are causing massive earthquakes, tidal waves, etc. If inhabited by intelligent life, the population is being devastated. If over TR 10, a planetary evacuation is underway.
+33 There is a comet passing through the system near this world and approaching the star(s) at a high rate of speed. Sensors indicate that the nucleus of the comet is oddly metallic.
+34 (If this planet is in a multi-star system) When the stars are scanned, sensors will show that there is some sort of blueish energy beam extending between two of the stars, and at one of the LaGrangian points between them, suspended in the beam, is a cylindrical object. Solar winds and radiation noise make it difficult to get a clearer image.
+35 There is a faint radio signal emitting from the north pole of the one of the planet’s moons. Investigation will reveal the remains of a crashed ship, still broadcasting a distress signal. The only inhabitant is an advanced android of alien craftsmanship. It is quite helpful, and will join with the PCs, if asked. It is particularly skilled at Jump engine maintenance. It will take the android about a day to learn the PCs language. When asked, it claims to have no memory of what caused the crash. In fact, it will be somewhat evasive when asked any questions about its past.
+36 When passing through this system, a swarm of small glowing ‘bugs’ will become attracted to the ship. Shortly thereafter, the ship will begin losing power at an alarming rate. The bugs will not follow the ship into a planet’s atmosphere, but will return once the ship returns to space. They are attracted to energy sources, and will ignore a powered-down ship. A ship will not be able to successfully jump with them around the ship. They are too small and fast moving to be stopped by conventional ships weapons, but they do have a weakness if the PCs can find it.
+37 There is an interstellar visitor base (roll Xenotype and Tech Level from Step H) on one of the uninhabited planets or moons. Upon investigation, the PCs find that all of the visitors are dead, having apparently turned their weapons on each other just a few hours previously. Much of their technology was destroyed in the firefight, but there are some salvageable items, weapons, and supplies. No indication of what caused this violent behavior, except for a recording where the leader warns “...the demons are pulling the strings...”
+38 If there is a former human colony in this system, they appear to be TR 4, and are a perfect copy of their original culture at that point in history. They in fact do not realize that they are not on Earth, but simply think they are in a remote part their kingdom, cut off from the settled lands.
+39 On the surface of one planet there is a black disk. This disk is 58.3km in diameter, and is perfectly flat and completely frictionless. Laser instruments will not be able to find an imperfection, and there is no dust or sand on its surface. Tools do not seem to have the ability to even scratch its surface.
+40 In this system, one of the gas giants is being pulled into a singularity (tiny black hole), as evidenced by the fact it has broken orbit and has a long tendril of gas spiraling into a nearby point at the center of its new orbit. A garden world is also seemingly caught in its pull and has been dragged out of its orbital path, toward the singularity.
+41 There is a space junkyard orbiting this world. Could be something worth salvaging among those ancient hulks.
+42 Space whale carcass floating in orbit around this planet's star. Possibly killed by errant solar flare, or something else...
+43 While approaching this planet, a giant, organic-looking black ship jumps out of FTL near the PC’s ship. It seems to study them for about 5 minutes, and then jumps again.
+44 If the PCs land and explore the surface, they will be disturbed by ghostly images of people from their past. The figures will stay just out of reach, but generally seem happy. Further investigation will find a nearby alien graveyard, with a opalescent sphere on a pedestal that seems to be some kind of holographic projector. Covering the sphere will make the images go away. Trying to remove the sphere from the pedestal will break it irrevocably.
+45 In the vicinity of this planet, the PCs will find a passing alien ship which will inquire if they are interested in trade. They will find the aliens are slave traders, and have a wide variety of sad looking slaves of various races (including human) for sale. They are well-armed, and lack a sense of humor.
+46 Orbiting this world is a space brothel, run by a 300kg inscectoid pimp named Bar-thak. Their host will allow the PCs as long as they have coin to trade, but if they get too nosey about the sizable off-limits area. The space brothel is in fact a front operation for smugglers. Bar-thak’s goons will try to kick the PCs out an airlock. (Note, Alpha Blue could be a good resource for fleshing out the station further.)
+47 Shortly after arriving at this world, a ship will approach the PC's ship. It is an exploratory ship from a nearby hex, where a TR 10 world has just discovered FTL. The PCs are the first offworlders encountered by this race. (Roll 1d6: 1-4 is human, 5-6 alien race.)
+48 While scanning this world, the ship picks up a garbled message from a world about 2d4 parsecs away that seems to be a plea for help, and something about a deadly outbreak of plague on their world.
+49 Sensors pick up an alien ship in outer orbit around this world—it appears to be of unknown design, and very old and damaged. It is a derelict that has already been picked over. The hold however is full of 1 meter diameter spheres that seem to be full of a pale orange liquid. (Roll 1d6: 1-2 it’s alien eggs, 3-4 it’s a shipment of an popular alien soft drink, 5-6 it’s a load of expired alien fertility pharmaceuticals, which probably have no effect on other species.)
+50 Free trade starport located here. Frequented by TR 10-13 species from this quadrant. The starport is dank and crowded, and anything imaginable is for sale, but everything has a price. (Example: PCs will need to purchase “Atmo vouchers” good for 15 minutes of breathing station air. Being caught breathing station air without a voucher must pay a hefty fine/bribe or face losing a lung to the organ bank.)
+51 A luxury spaceliner from a Tech Level 12 world several parsecs away is dallying at this world. The crew (and passengers) are condescending and snooty to lower tech cultures. Not inclined to associate with space riff-raff.
+52 This system is teeming with a bio-organism (like space plankton) that will silently build up on the ship’s hull interfering with the ship’s ability to make a jump. Getting the ship’s jump capability working again requires painstaking scraping off of the hull in key areas, or finding a way to remove it long enough make the jump. (The organism loves light, so the closer the ship gets to the sun, the faster it builds up.)
+53 There is a crashed ship in a marshy area on the surface (if it is a garden planet). Its fusion core is still operating, and it is full of hundreds of cryotubes, of which 3 are still operating and have living occupants. This ship was delivering a load of 'mail order brides' to a new human colony. If they are woken up, the occupants will not be sure how much time has passed, or exactly where their destination is. (The ship’s computer can reveal the delivery coordinates if repaired.)
+54 In a wilderness area, there is a ruin visible from the air. The stone complex is overgrown with vines and is long forgotten, but actually is an old temple. It houses a pylon that is far older than this planet's civilization (if there is one). The pylon is malfunctioning, and anyone who meddles with it suffers a permanent effect: (roll 1d4: 1: Makes them an albino, but also now has natural night vision. Regular sunlight is blinding to PC and their skin burns very easily. 2: They grow 1/2 meter in height, and their strength increases by an additional 50%. Their metabolism can now only process protein anything, and else makes the PC violently ill. 3: They suffer a devolutionary effect, and grow ape-like features. Lose 25% INT, but gain additional 50% DEX. Also has acute sense of smell. 4: INT increases by additional 50%, and gains one psychic ability. The PC’s head gets slightly bigger (but they are now completely bald). The pylon can only affect a given character once.
+55 There is an A.I. missile called a Nova Bomb floating in space near this world. It has limited robot intelligence, but has developed self-awareness, and a concept of self-preservation. It has lost its will to detonate and destroy this planet. It can be reasoned with, and may reveal who sent it, and why.
+56 This planet's star has a research station in low orbit around it, with a long metallic probe extending down into the star's core. The temperature on the station is very hot, near the boiling point. If investigated the PCs will find that the station's crew apparently died in some panic, having been “diamond-ized” at some point.
+57 Half a space ship is drifting though this planet's system, its engines and rear portion having been destroyed in some incident. It is being 'piloted' by a cranky android, who is patiently waiting for the ship to reach to his destination 2d8 parsecs away. He doesn't want to be rescued, and will actively resist being removed from his ship. He does have access to a considerable database of information, and is willing to answer questions in exchange for useful parts or resources.
+58 Bears. This world is overrun by vicious bear-like creatures. If no life possible on this planet, then they are mechanical, selfreplicating bears.
+59 While in the vicinity of this world, a patrol ship will stop and board the PC's ship to conduct interrogations. If the PCs resist or try to flee, the patrol will use a stun field effect on the ship to knock out the PC's and their crew. The patrol is hunting for smugglers in this zone of space who have been selling forbidden materials. Any contraband on the PCs’ ship will be confiscated. The patrol is from a nearby high tech rating world.
+60 This planet has (in addition to any locals ) a brand new TR 9 agricultural colony that has only been there for 4 years. They could really use some help from the PCs, but don't have a lot to trade. (They do make a tasty BBQ however.)
+61 If there is intelligent life on this planet, however they are in fact a previously encountered visitor race in disguise. Their settlement seems innocent enough, but it conceals a secret underground military base, and is a vital part of a larger invasion plan. They will attempt to maintain the deception as long as the PCs are in the system, and show them some simple hospitality. However they will try to kill the PCs if their secret is discovered, in order to prevent them from revealing their secret to their enemies.
+62 Something here gives humans an itchy rash if they walk around exposed to the atmosphere. The rash lasts for 2d8 days, and scratching it causes green pustules to form. The pustules will sprout tendrils that grow to 10cm in length. If left alone, they will dry up and fall off on their own. But every time there is an attempt to cut a tendril, it adds another 1d8 days to the condition clearing up. Local species may have a better cure, but generally will recommend just "don't pick at it."
+63 In an asteroid belt near this world, PCs will detect a small defenseless ship fleeing a larger assault ship. Both are piloted by an alien species. The assault ship will try to capture the small ship with grapples, and will take it back home with it. If the PCs help the small ship escape, they will find a single alien occupant, who will claim to be a persecuted scientist escaping his planet's dictatorial government. He is actually a mad scientist being pursued for his crimes, but he doesn't see it that way. At the first opportunity, he will try to knock out the PCs and their crew, and use them to continue his experiments. He has advanced scientific technology on his ship (TR 15) that only he can operate. He is very interested in making the perfect being, and will try to use his 'subjects' as recipients of his genius, or as spare parts. (His idea of perfection is based on his race's ideals, rather than on humanity's.) He is able to make nearly perfect duplicates/clones of any of his subjects using one of his machines, and will make duplicates of anyone undergoing an experiment (as a control group.)
+64 Large ship (50x bigger than PC's ship) passing through this planet's system from another dimension. Aliens on board are scientists exploring our dimension, and collecting samples of alien life. These aliens are 20 meters tall, and have alien thought processes. They can be reasoned with, and are not malicious, but are not especially sympathetic to the PC’s point of view either.
+65 This planet is a low-tech farm colony—workers are kept drugged, docile, and happy as they toil in the fields. The overseers will show deference to the PCs, but also may try to drug the PCs’ food to add them to their work force.
+66 This planet has an island with a single 'human' settlement. The settlement is made up of androids, who have low technology, except for an ancient factory unit that is able to take a single piece of DNA and make a perfect android duplicate, even with the same memories of up to the moment the sample was taken from the donor. The androids are able to live about 10 years before they are recycled. The colony has a supply of DNA they use to recreate themselves, but it is running out, and they do not know how to build other types of technology. (Their DNA is derived from simple farmers who died out a long time ago.) They are willing to trade for DNA from individuals who have more advanced technical knowledge. This planet is in the process of being terraformed. There are 6 giant robot ships orbiting it, radically altering its atmosphere and hydrosphere. Every time the PCs’ ship gets too close, the robot ships will launch a missile at the PC’s ship. It is a homing missile which can travel slightly faster than the PCs’ ship's max movement. It has a range of 1 million miles, but if the PCs can get more then 1000 miles away from it, the missile will shut down and go dormant. The missile is not intelligent, and is very bad at making tight turns.
 68 Planet has violent storms. Tornadoes/waterspouts are a
 constant feature of the atmosphere, and multiple funnels can
 be frequently be seen at once while on the surface.
