@@ -775,29 +775,6 @@ func NewGardenPlanet(template int) *Planet {
 			p.visitorContact = visitor.id
 		}
 
-		// var vis *Visitors
-		// do := 1
-		// if roll > 9 {
-		// 	do = 2
-		// 	if len(VisitorMap) == 0 {
-		// 		do = 3
-		// 	}
-		// }
-		// if roll > 11 {
-		// 	do = 3
-		// }
-
-		// switch do {
-		// case 2:
-		// 	for _, val := range VisitorMap {
-		// 		vis = val
-		// 		break
-		// 	}
-		// case 3:
-		// 	vis = NewVisitors()
-		// default:
-		// }
-		// vis.xenoType = "NONO"
 
 	}
 	return &p

@@ -68,219 +68,37 @@ Roll Phenomenon
 64 Large ship (50x bigger than PC's ship) passing through this planet's system from another dimension. Aliens on board are scientists exploring our dimension, and collecting samples of alien life. These aliens are 20 meters tall, and have alien thought processes. They can be reasoned with, and are not malicious, but are not especially sympathetic to the PC’s point of view either.
 65 This planet is a low-tech farm colony—workers are kept drugged, docile, and happy as they toil in the fields. The overseers will show deference to the PCs, but also may try to drug the PCs’ food to add them to their work force.
 66 This planet has an island with a single 'human' settlement. The settlement is made up of androids, who have low technology, except for an ancient factory unit that is able to take a single piece of DNA and make a perfect android duplicate, even with the same memories of up to the moment the sample was taken from the donor. The androids are able to live about 10 years before they are recycled. The colony has a supply of DNA they use to recreate themselves, but it is running out, and they do not know how to build other types of technology. (Their DNA is derived from simple farmers who died out a long time ago.) They are willing to trade for DNA from individuals who have more advanced technical knowledge. This planet is in the process of being terraformed. There are 6 giant robot ships orbiting it, radically altering its atmosphere and hydrosphere. Every time the PCs’ ship gets too close, the robot ships will launch a missile at the PC’s ship. It is a homing missile which can travel slightly faster than the PCs’ ship's max movement. It has a range of 1 million miles, but if the PCs can get more then 1000 miles away from it, the missile will shut down and go dormant. The missile is not intelligent, and is very bad at making tight turns.
-68 Planet has violent storms. Tornadoes/waterspouts are a
-constant feature of the atmosphere, and multiple funnels can
-be frequently be seen at once while on the surface.
-69 This planet has a religious shrine that attracts pilgrims from
-multiple worlds. The shrine is also home to a colony of brightly
-colored beetles that give possibly prophetic visions when
-allowed to attach themselves to the back of the neck. The
-beetles only live in the area around the shrine, and will die
-within a day or two of being removed from their habitat.
-70 A cave system on this world houses an exclusive vault in an
-insect hive, used by traders, smugglers, and the like to keep
-valuables and contraband safe. For a fee, the insect bankers
-will hold anything for anyone in their vaults. They have nearly
-matchless security—a legion of warrior caste with deadly stingers—
-and charge an appropriately high rate for their services.
-Their queen handles all negotiations.
-71 The ecosystem of this world is very delicate, and if the PCs
-wander around without any kind of mask on, they will release
-a virus that will start killing off the local animal life. If there is
-native civilization, they may react poorly to the PCs, and seek
-to capture the PCs to use their blood to find a cure.
-72 This world has a secret reconnaissance base for a nearby space
-empire. The scouts are in suspended animation, but their
-computer will wake them 1d4 days after the PCs arrive. They
-will begin transmitting encrypted reports to their home base
-describing the PCs’ activities.
-73 The natives of this world are incredibly attracted to the PCs. If
-intelligent, they find the PCs’ race/culture extremely attractive
-and fascinating. If there is no intelligent life, then something in
-the PCs’ scent is similar to mating pheromones of local wildlife.
-If no there is life on this world at all, then there is a high
-percentage of powerful magnetic ore in the rocks and gravel of
-this world, causing steel/Iron to become coated with grit and
-gravel, or become stuck to larger rocks.
-This world has huge, floating clusters of a moss type lifeform
-that crowds the skies. It naturally extracts hydrogen from the
-atmosphere/water, which gives it its lift. An ecosystem entirely
-different from the planet’s surface exists on the moss islands.
-It is difficult to land/walk on the moss islands, since they are
-always bobbing like balloons, and have a soft spongy consistency.
-Also there is the exploding part.
-75 There is the broken remains of a collapsed orbital beanstalk
-lying across a mountain range of this world. It seems unrelated
-to any other civilization that may exist on this world.
-76 There are an order of monks (or something similar) on this
-world who make and sell a liquor that is amazing, and quite
-potent. (If this world has TR 11+ or no native Intelligence, then
-the monks came here from another world, and export their
-liquor via a ship that visits once every couple of months.)
-The PCs encounter a weird curvilinear ship with advanced
-amoeboid aliens who state they need assistance returning to
-the 8th dimension, and will ask to dock. However, they are
-inter-dimensional slavers who do not follow linear time—and
-gradually they will enslave the PCs in their pasts thus changing
-the present. When a change happens, all of the PCs will
-simultaneously forget that one of the PCs was part of the crew,
-and instead now believe he/she was always property of the
-amoeboids. The referee should randomly pick a PC once every
-few hours and roll a d6 to find what role their altered past has
-made them think they are now: 1-2 worker slave, 3-4 pleasure
-slave, 5 entertainer/jester, 6 cruel overseer. (Note: the amoeboids
-are not interested in humans except as merchandise.)
-Coming into contact with energy from the 8th dimensional ship
-will temporarily return the PC’s own original memories for 1d4
-hours. Destroying the inter-dimensional ship’s tachyon drive
-will undo all their temporal meddling.
-78 Alien scientists on a mission of exploration are eager to learn
-from the PCs and about their home world—very eager to the
-point of being pushy. They have advanced medical techniques
-and can offer augmentations if they are allowed to perform
-detailed biological scans.
-79 n this system is a rickety ship operated by a friendly but
-standoffish prospector. He has found a rich pocket of Karolite
-ore, but has to wait for a tidally locked moon to be eclipsed by
-another moon so he can mine it. He is worried and antsy since
-the eclipse will occur soon. His ship has a mining laser that is
-devastatingly powerful, but slow to recharge. He will use it if
-he thinks the PCs are going to “jump his claim”.
-80 Every 35 hours, a star in this system flares, blanketing the
-system in a psychic wave. Make a secret roll 1d6 for anyone
-observing the flare. Add +1 to roll for psychic characters
-1. Nothing
-2. Migraine headache
-3. Temporarily see only in black and white
-4. Paranoia: (thinks best friends are evil, enemies are allies)
-5. Ecstatic: feeling unusually affectionate
-6. Prophetic visions: has flashes of things about to happen
-7. Boost of psi powers by 5x. Lasts only during a flare but (at
-the referee’s discretion) the PC can permanently gain a lesser
-psi boost. Roll again without the +1 modifier.
-81 Advanced shipyard in this system (orbiting star if no indigenous
-civilizations) can make repairs and improvements for a fee (no
-credit or currency—only accepts exotic metals and ore).
-82 There is an old alien escape pod drifting here. It holds the
-corpse of an alien, and some advanced, if mysterious technology.
-The pod’s computer core is damaged, but contains trace
-amounts of nanites. If the nanites contaminate another ship,
-they will “repair” its computer, making it more powerful... and
-also sapient.
-83 Religious festival in this system (if no indigenous civilization,
-than they are visitors there as part of a pilgrimage) honoring
-the blessed moon of Ix, an ice moon covered by aurora borealis.
-A band of zealots from a rival order planning a series of
-bombings. The church is wealthy and will pay handsomely for
-the culprits to be captured. The aurora interferes with energy
-weapons making them difficult to aim.
-84 Space whalers have constructed an entire city on the back of
-a large space whale. They hunt other space whales, allowing
-their captured whale to lead them to the herds. Friendly and
-generous folk otherwise, who don't understand why anyone
-else would be shocked by their livelihood.
-85 PCs pick up a ship at the edge of their sensors that seems to
-be following them. If they give chase it will appear to flee to an
-asteroid belt. In fact, it is a sensor ghost created by an ancient
-gravimetric minefield trying to draw ships into it. The mines
-are hidden among the asteroids, but the core is housed in a
-bombed-out, secret base on a small planetoid near the center
-of the minefield. Every hour in the field requires a normal piloting
-check to avoid collisions, and every round in the field the
-mines are active requires a ship’s weapon roll to destroy any
-approaching mines. (A difficult piloting roll can also be used to
-dodge mines.)
-86 Ship or hidden colony of humanoids. They are in fact
-bioroids—artificial human workers with synthetic brains.
-They stole a ship and fled their home system seeking refuge
-from persecution from "the Naturals". They can change their
-appearance to be even more pleasing to the PCs in about 10
-hours, based on what they learn about the PC’s tastes. They
-want help but don't trust non-synthetics. Also many of their
-memories are artificial, and some have dormant programming
-that can be triggered by stressful situations.
-87 A planet in this system is currently being terraformed by a
-massive planetoid robot ship. Science rolls can tell that is
-being terraformed to be very hot and swampy, and the ship
-has another 600 years of work to do on this world.
-88 On an inhospitable planet or moon there is a dome emitting
-a faint energy signature. Inside there is a perfect 20th century
-town with about 120 inhabitants. They were abducted from
-western Pennsylvania in 1958 by unknown aliens and brought
-here, town and all. They have been here ever since, with no
-contact from the mysterious aliens. Their secret is that the
-dome is failing, and a hidden readout in the town hall shows
-how many people the dome can support. The town will kill
-the PCs or members of the town to return to that population
-number. (Every time they have a birth in that town they have a
-lottery to see who will have to be in turn sacrificed.)
-89 This system is the temporary home of a clan of space gypsies.
-They have a amalgamated worldship built from a variety of
-derelicts. They will offer to dock and trade with the party, and
-aside from some petty larceny will be honest traders. They will
-move on to a new system about once every 4 months.
-90 The asteroid belt in this system is quite rich in rare minerals,
-but the party will have to perform a detailed scan in the belt to
-discover this fact. Its location could be traded for a nice profit.
-91 While in this system, sensors can pick up a static-laden radio
-signal that seem to be from old earth, from within the star.
-92 One of the moons in this system has a deep crevasse that
-contains evidence of atmosphere—If a small ship is taken
-about 3 km down, they will find breathable atmosphere, and a
-strange subterranean environment. (Starting at Step F, roll the
-subsequent steps for this lush interior environment.)
-93 One of the planets in this system has a swarm of alien robots
-that attack and consume anything metal, and are able to quickly
-replicate more of themselves. They are a menace to anything
-technological on the planet, and are difficult to destroy.
-94 On one of these worlds there is an ancient ruined city, and at
-its center is a great domed library that is mostly intact. At the
-center of the library is a holographic librarian that will answer
-questions posed to it. Unfortunately it is old and breaking
-down, and its databases have been merged. Every third
-question it answers it will unwittingly take from a work of alien
-fiction or mythology.
-95 Psychic characters or NPCs in this system will hear a humming
-that no one else can hear. They will soon feel an urge to travel
-to the innermost planet in this system. The closer they get to
-it, the stronger the urge, until they will turn violent and attempt
-to hijack their ship. This will persist until they are removed
-from the system or die. They are being drawn to a trio of
-basalt pillars in the middle of a desert plain, and when and
-if they reach the pillars, they will stand blankly in the middle
-of them until they die of exposure. Littered around the pillars
-in the dust are the remains of a variety of alien species from
-over the eons—otherwise, there is little of interest at these
-pillars. If they are subsequently taken from the system, they will
-gradually recover over 2 weeks, and find their psychic powers
-somewhat increased.
-96 A species in this system believes that the their gods resemble
-humans (or the race of an alien member of the party). They
-will see them as avatars of their gods, and want to treat those
-party members accordingly. Unfortunately this species believes
-they must eat their gods to reach the afterlife—and assume the
-party is aware of this fact of their culture too. (They just need a
-little taste each, but there are a lot of them).
-97 There is a negotiation going on in this system for mineral rights
-on one of the planets. A variety of alien delegates are here to
-bid for exclusive rights. Various factions may seek to hire the
-party to help their objectives (or murder their rivals.)
-98 Two fleets of TR 13 warships are battling in this system. They
-will ignore the PCs’ ship unless the PCs become involved. In
-fact these ships are performing a combat exercise, and belong
-to the same empire, but take their wargames very seriously.
-99 There is a comet in this system that is quite large. If they check,
-the party will find that the comet is going to collide with the a
-world in the system in about 4 weeks.
-00 One of the planets in this system gives off strange energy readings.
-Due to an ancient alien experiment, there is a temporal
-fracture on the planet, centered on the ruins of the old alien
-research complex. Different areas of the planet’s surface have
-time moving at different rates, or skipping out of order. (Some
-of the aliens are still trapped in a frozen moment of time at the
-center of the complex.) PCs won’t notice the timeskip effect
-unless they separate from each other. Each separate group will
-gain or lose 1d20 -10 hours for every hour on the surface. Only
-those outside the planet’s atmosphere will be able to observe
-the correct rate at which time is passing.
+68 Planet has violent storms. Tornadoes/waterspouts are a constant feature of the atmosphere, and multiple funnels can be frequently be seen at once while on the surface.
+69 This planet has a religious shrine that attracts pilgrims from multiple worlds. The shrine is also home to a colony of brightly colored beetles that give possibly prophetic visions when allowed to attach themselves to the back of the neck. The beetles only live in the area around the shrine, and will die within a day or two of being removed from their habitat.
+70 A cave system on this world houses an exclusive vault in an insect hive, used by traders, smugglers, and the like to keep valuables and contraband safe. For a fee, the insect bankers will hold anything for anyone in their vaults. They have nearly matchless security—a legion of warrior caste with deadly stingers and charge an appropriately high rate for their services. Their queen handles all negotiations.
+71 The ecosystem of this world is very delicate, and if the PCs wander around without any kind of mask on, they will release a virus that will start killing off the local animal life. If there is native civilization, they may react poorly to the PCs, and seek to capture the PCs to use their blood to find a cure.
+72 This world has a secret reconnaissance base for a nearby space empire. The scouts are in suspended animation, but their computer will wake them 1d4 days after the PCs arrive. They will begin transmitting encrypted reports to their home base describing the PCs’ activities.
+73 The natives of this world are incredibly attracted to the PCs. If intelligent, they find the PCs’ race/culture extremely attractive and fascinating. If there is no intelligent life, then something in the PCs’ scent is similar to mating pheromones of local wildlife. If no there is life on this world at all, then there is a high percentage of powerful magnetic ore in the rocks and gravel of this world, causing steel/Iron to become coated with grit and gravel, or become stuck to larger rocks.
+74 This world has huge, floating clusters of a moss type lifeform that crowds the skies. It naturally extracts hydrogen from the atmosphere/water, which gives it its lift. An ecosystem entirely different from the planet’s surface exists on the moss islands. It is difficult to land/walk on the moss islands, since they are always bobbing like balloons, and have a soft spongy consistency. Also there is the exploding part.
+75 There is the broken remains of a collapsed orbital beanstalk lying across a mountain range of this world. It seems unrelated to any other civilization that may exist on this world.
+76 There are an order of monks (or something similar) on this world who make and sell a liquor that is amazing, and quite potent. (If this world has TR 11+ or no native Intelligence, then the monks came here from another world, and export their liquor via a ship that visits once every couple of months.)
+77 The PCs encounter a weird curvilinear ship with advanced amoeboid aliens who state they need assistance returning to the 8th dimension, and will ask to dock. However, they are inter-dimensional slavers who do not follow linear time—and gradually they will enslave the PCs in their pasts thus changing the present. When a change happens, all of the PCs will simultaneously forget that one of the PCs was part of the crew, and instead now believe he/she was always property of the amoeboids. The referee should randomly pick a PC once every few hours and roll a d6 to find what role their altered past has made them think they are now: 1-2 worker slave, 3-4 pleasure slave, 5 entertainer/jester, 6 cruel overseer. (Note: the amoeboids are not interested in humans except as merchandise.) Coming into contact with energy from the 8th dimensional ship will temporarily return the PC’s own original memories for 1d4 hours. Destroying the inter-dimensional ship’s tachyon drive will undo all their temporal meddling.
+78 Alien scientists on a mission of exploration are eager to learn from the PCs and about their home world—very eager to the point of being pushy. They have advanced medical techniques and can offer augmentations if they are allowed to perform detailed biological scans.
+79 n this system is a rickety ship operated by a friendly but standoffish prospector. He has found a rich pocket of Karolite ore, but has to wait for a tidally locked moon to be eclipsed by another moon so he can mine it. He is worried and antsy since the eclipse will occur soon. His ship has a mining laser that is devastatingly powerful, but slow to recharge. He will use it if he thinks the PCs are going to “jump his claim”.
+80 Every 35 hours, a star in this system flares, blanketing the system in a psychic wave. Make a secret roll 1d6 for anyone observing the flare. Add +1 to roll for psychic characters 1. Nothing 2. Migraine headache 3. Temporarily see only in black and white 4. Paranoia: (thinks best friends are evil, enemies are allies) 5. Ecstatic: feeling unusually affectionate 6. Prophetic visions: has flashes of things about to happen 7. Boost of psi powers by 5x. Lasts only during a flare but (at the referee’s discretion) the PC can permanently gain a lesser psi boost. Roll again without the +1 modifier.
+81 Advanced shipyard in this system (orbiting star if no indigenous civilizations) can make repairs and improvements for a fee (no credit or currency—only accepts exotic metals and ore).
+82 There is an old alien escape pod drifting here. It holds the corpse of an alien, and some advanced, if mysterious technology. The pod’s computer core is damaged, but contains trace amounts of nanites. If the nanites contaminate another ship, they will “repair” its computer, making it more powerful... and also sapient.
+83 Religious festival in this system (if no indigenous civilization, than they are visitors there as part of a pilgrimage) honoring the blessed moon of Ix, an ice moon covered by aurora borealis. A band of zealots from a rival order planning a series of bombings. The church is wealthy and will pay handsomely for the culprits to be captured. The aurora interferes with energy weapons making them difficult to aim.
+84 Space whalers have constructed an entire city on the back of a large space whale. They hunt other space whales, allowing their captured whale to lead them to the herds. Friendly and generous folk otherwise, who don't understand why anyone else would be shocked by their livelihood.
+85 PCs pick up a ship at the edge of their sensors that seems to be following them. If they give chase it will appear to flee to an asteroid belt. In fact, it is a sensor ghost created by an ancient gravimetric minefield trying to draw ships into it. The mines are hidden among the asteroids, but the core is housed in a bombed-out, secret base on a small planetoid near the center of the minefield. Every hour in the field requires a normal piloting check to avoid collisions, and every round in the field the mines are active requires a ship’s weapon roll to destroy any approaching mines. (A difficult piloting roll can also be used to dodge mines.)
+86 Ship or hidden colony of humanoids. They are in fact bioroids—artificial human workers with synthetic brains. They stole a ship and fled their home system seeking refuge from persecution from "the Naturals". They can change their appearance to be even more pleasing to the PCs in about 10 hours, based on what they learn about the PC’s tastes. They want help but don't trust non-synthetics. Also many of their memories are artificial, and some have dormant programming that can be triggered by stressful situations.
+87 A planet in this system is currently being terraformed by a massive planetoid robot ship. Science rolls can tell that is being terraformed to be very hot and swampy, and the ship has another 600 years of work to do on this world.
+88 On an inhospitable planet or moon there is a dome emitting a faint energy signature. Inside there is a perfect 20th century town with about 120 inhabitants. They were abducted from western Pennsylvania in 1958 by unknown aliens and brought here, town and all. They have been here ever since, with no contact from the mysterious aliens. Their secret is that the dome is failing, and a hidden readout in the town hall shows how many people the dome can support. The town will kill the PCs or members of the town to return to that population number. (Every time they have a birth in that town they have a lottery to see who will have to be in turn sacrificed.)
+89 This system is the temporary home of a clan of space gypsies. They have a amalgamated worldship built from a variety of derelicts. They will offer to dock and trade with the party, and aside from some petty larceny will be honest traders. They will move on to a new system about once every 4 months.
+90 The asteroid belt in this system is quite rich in rare minerals, but the party will have to perform a detailed scan in the belt to discover this fact. Its location could be traded for a nice profit.
+91 While in this system, sensors can pick up a static-laden radio signal that seem to be from old earth, from within the star.
+92 One of the moons in this system has a deep crevasse that contains evidence of atmosphere—If a small ship is taken about 3 km down, they will find breathable atmosphere, and a strange subterranean environment. (Starting at Step F, roll the subsequent steps for this lush interior environment.)
+93 One of the planets in this system has a swarm of alien robots that attack and consume anything metal, and are able to quickly replicate more of themselves. They are a menace to anything technological on the planet, and are difficult to destroy.
+94 On one of these worlds there is an ancient ruined city, and at its center is a great domed library that is mostly intact. At the center of the library is a holographic librarian that will answer questions posed to it. Unfortunately it is old and breaking down, and its databases have been merged. Every third question it answers it will unwittingly take from a work of alien fiction or mythology.
+95 Psychic characters or NPCs in this system will hear a humming that no one else can hear. They will soon feel an urge to travel to the innermost planet in this system. The closer they get to it, the stronger the urge, until they will turn violent and attempt to hijack their ship. This will persist until they are removed from the system or die. They are being drawn to a trio of basalt pillars in the middle of a desert plain, and when and if they reach the pillars, they will stand blankly in the middle of them until they die of exposure. Littered around the pillars in the dust are the remains of a variety of alien species from over the eons—otherwise, there is little of interest at these pillars. If they are subsequently taken from the system, they will gradually recover over 2 weeks, and find their psychic powers somewhat increased.
+96 A species in this system believes that the their gods resemble humans (or the race of an alien member of the party). They will see them as avatars of their gods, and want to treat those party members accordingly. Unfortunately this species believes they must eat their gods to reach the afterlife—and assume the party is aware of this fact of their culture too. (They just need a little taste each, but there are a lot of them).
+97 There is a negotiation going on in this system for mineral rights on one of the planets. A variety of alien delegates are here to bid for exclusive rights. Various factions may seek to hire the party to help their objectives (or murder their rivals.)
+98 Two fleets of TR 13 warships are battling in this system. They will ignore the PCs’ ship unless the PCs become involved. In fact these ships are performing a combat exercise, and belong to the same empire, but take their wargames very seriously.
+99 There is a comet in this system that is quite large. If they check, the party will find that the comet is going to collide with the a world in the system in about 4 weeks.
+00 One of the planets in this system gives off strange energy readings. Due to an ancient alien experiment, there is a temporal fracture on the planet, centered on the ruins of the old alien research complex. Different areas of the planet’s surface have time moving at different rates, or skipping out of order. (Some of the aliens are still trapped in a frozen moment of time at the center of the complex.) PCs won’t notice the timeskip effect unless they separate from each other. Each separate group will gain or lose 1d20 -10 hours for every hour on the surface. Only those outside the planet’s atmosphere will be able to observe the correct rate at which time is passing.
 */
