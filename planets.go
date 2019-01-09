@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"strconv"
 )
 
@@ -28,6 +29,7 @@ type Planet struct {
 	alienCiv                   *Visitors
 	alienAgenda                string
 	nextStep                   string
+	visitorContact             int
 }
 
 func NewGardenPlanet(template int) *Planet {
@@ -751,10 +753,32 @@ func NewGardenPlanet(template int) *Planet {
 		p.nextStep = "H"
 	}
 	if p.nextStep == "H" {
+		var visitor *Visitors
 		roll := roll1dX(12, 0)
+		visID := -1
+		p.visitorContact = -1
 		if roll < 10 {
-			panic(roll)
+			p.visitorContact = -1
 		}
+		if roll > 9 && roll < 12 {
+			if len(VisitorMap) < 1 {
+				NewVisitors()
+			}
+			visID = roll1dX(len(VisitorMap), 0)
+			fmt.Println(p.visitorContact, visID, "VisID =", visID)
+			if visID == 0 {
+				visID++
+			}
+			//panic(visID)
+			visitor = VisitorByID(visID)
+			p.visitorContact = visID // visitor.id
+			fmt.Println(p.visitorContact, visID, "dfhdjfh")
+		}
+		if roll > 11 {
+			visitor = NewVisitors()
+			p.visitorContact = visitor.id
+		}
+
 		// var vis *Visitors
 		// do := 1
 		// if roll > 9 {
@@ -884,6 +908,11 @@ func (p *Planet) toString() string {
 	}
 	if p.colony != nil {
 		str = str + p.colony.toString()
+	}
+	if p.visitorContact != -1 {
+		fmt.Println(VisitorByID(p.visitorContact))
+		fmt.Println(p.visitorContact)
+		str = str + VisitorByID(p.visitorContact).toString()
 	}
 
 	str = str + p.Description + "\n"

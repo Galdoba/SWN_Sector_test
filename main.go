@@ -14,18 +14,13 @@ func main() {
 	fmt.Println("random =", temp)
 	fmt.Println("--------------------")
 
-	syst := NewStarSystem(temp)
+	syst := NewStarSystem(16)
 
 	fmt.Println(syst.toString())
 
-	race := NewVisitors()
-	NewVisitors()
-	NewVisitors()
-	fmt.Println(race.toString())
-	fmt.Println("------")
-
-	fmt.Println(VisitorMap[0].toString())
-	fmt.Println(VisitorMap[1].toString())
-	fmt.Println(VisitorMap[2].toString())
+	// race := NewVisitors()
+	// visByid := VisitorByID(1)
+	// fmt.Println(visByid.toString())
+	// fmt.Println(race)
 
 }
