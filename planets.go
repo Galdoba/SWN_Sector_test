@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -765,14 +764,11 @@ func NewGardenPlanet(template int) *Planet {
 				NewVisitors()
 			}
 			visID = roll1dX(len(VisitorMap), 0)
-			fmt.Println(p.visitorContact, visID, "VisID =", visID)
-			if visID == 0 {
-				visID++
+			for visID < 2 {
+				visID = roll1dX(len(VisitorMap), 0)
 			}
-			//panic(visID)
 			visitor = VisitorByID(visID)
 			p.visitorContact = visID // visitor.id
-			fmt.Println(p.visitorContact, visID, "dfhdjfh")
 		}
 		if roll > 11 {
 			visitor = NewVisitors()
@@ -909,9 +905,11 @@ func (p *Planet) toString() string {
 	if p.colony != nil {
 		str = str + p.colony.toString()
 	}
-	if p.visitorContact != -1 {
-		fmt.Println(VisitorByID(p.visitorContact))
-		fmt.Println(p.visitorContact)
+	// fmt.Println(p.Name, "has visitor", p.visitorContact)
+	if p.visitorContact != -1 && p.visitorContact != 0 {
+		// fmt.Println(VisitorMap)
+		// fmt.Println(VisitorByID(p.visitorContact))
+		// fmt.Println(p.visitorContact)
 		str = str + VisitorByID(p.visitorContact).toString()
 	}
 

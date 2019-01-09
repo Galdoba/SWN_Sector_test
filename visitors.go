@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 type AlienPresense struct {
 	alienCiv          *Visitors
 	sizeOfInvolvement string
@@ -21,8 +19,8 @@ var VisitorMap map[int]*Visitors
 func NewVisitors() *Visitors {
 	if VisitorMap == nil {
 		VisitorMap = make(map[int]*Visitors)
-		fmt.Println("VisitorsMap was Null", len(VisitorMap))
 		nullVis := Visitors{}
+		nullVis.xenoType = "TEST CASE"
 		VisitorMap[len(VisitorMap)] = &nullVis
 
 	}
@@ -35,16 +33,14 @@ func NewVisitors() *Visitors {
 	vis.SetRandomTechRating()
 	vis.SetRandomGoverment()
 	vis.id = len(VisitorMap) + 1
-	VisitorMap[len(VisitorMap)] = &vis
-	fmt.Println("Func NewVisitors: Output =", vis.id, "\n", VisitorMap)
+	VisitorMap[vis.id] = &vis
 	return &vis
 }
 
 func VisitorByID(i int) *Visitors {
-	if len(VisitorMap) < i {
+	if len(VisitorMap) < 1 {
 		return nil
 	}
-	fmt.Println("Func VisitorByID: Input =", i, "Output =", i)
 	return VisitorMap[i]
 }
 

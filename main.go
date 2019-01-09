@@ -14,8 +14,8 @@ func main() {
 	fmt.Println("random =", temp)
 	fmt.Println("--------------------")
 
-	syst := NewStarSystem(16)
-
+	syst := NewStarSystem(temp)
+	fmt.Println("")
 	fmt.Println(syst.toString())
 
 	// race := NewVisitors()
