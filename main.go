@@ -17,7 +17,6 @@ func main() {
 	syst := NewStarSystem(temp)
 	fmt.Println("")
 	fmt.Println(syst.toString())
-
 	// race := NewVisitors()
 	// visByid := VisitorByID(1)
 	// fmt.Println(visByid.toString())

@@ -1,24 +1,40 @@
 package main
 
+func Strangeness(i int) string {
+	return strList()[i]
+}
+
+func RandomStrangeness() string {
+	i := roll1dX(len(strList()), -1)
+	return Strangeness(i)
+}
+
+func strList() []string {
+	strList := []string{
+		"Scans show mountains in shape of a human face, when seen from orbit. Coincidence?",
+		"There is an abandoned ancient imperial Starport. Looks oddly intact for an installation this old.",
+		"A strange and very alien ship is in orbit around the southern hemisphere. It leaves orbit and jumps as soon as it is scanned..",
+		"This world’s oceans are bioluminescent, and are hauntingly beautiful at night.",
+		"Every 81 minutes, there is a burst of interference on all radio spectrums, originating from somewhere on the surface.",
+		"There is a plant on this world that can be made into a powerful drug that increases intelligence, and removes the need for sleep. However, it seems to have a curious effect on DNA over time, causing physical mutations that the subject is blind to.",
+		"This world is protected by a force shield which can severely damage any ships who try to land without knowing the secret codes. If there is a local civilization with a TR below 9, then they are not aware of the shield, and could not have built it.",
+		"There appears to be a large number of destroyed robot drones on largest moon or nearby asteroid. 2d6 of them are still active, and will launch to attack any ship that approaches.",
+		"There appears to be a hive on the surface of the world, and a large number of non-native insectoid aliens.",
+		"What was that? It looked like a wormhole opened for a second, just outside the planet’s orbit..?",
+		"This world’s star is a “star whale” breeding ground. There will be 1d4 whales in the hot zone of the system, ‘Grazing’ (absorbing stellar radiation from the brightest star in the system).",
+		"There appears to be a large mirrored silver sphere floating on the surface of this planet's star.",
+		"There is a decrepit orbital station in a decaying orbit.",
+		"There are a number of approximately 1,000-meter tall clusters of crystals on the planet’s surface.",
+		"There is a species of herd animal on this world, that appears to graze in large and oddly precise geometric patterns.",
+		"There is a ship or space station in orbit (TR 13) and is in perfect working order. Its only inhabitants are 3d8 small multi-legged robots. The original owners have been gone many decades, but the robots have kept the ship in perfect condition, awaiting their return. They are programmed to take care of their masters’ every need, and will eagerly try to service the PCs, as they are guests. Unfortunately, their builders were alien, and have tastes and needs that are unpleasant or even lethal to other species. The robots will not allow any technology to be taken from the ship, and any attempt to do so, (or damage the ship or robots) will cause them to switch to defense mode and attack the PCs directly, as well as decompress the ship.",
+		"Curious effect of this planet's atmosphere and its star's light makes the color red appear to be blue. PCs will not notice it until they are on the surface.",
+	}
+	return strList
+}
+
 /*
 Roll Phenomenon
-1 Scans show mountains in shape of a human face, when seen from orbit. Coincidence?
-2 There is an abandoned ancient imperial Starport. Looks oddly intact for an installation this old.
-3 A strange and very alien ship is in orbit around the southern hemisphere. It leaves orbit and jumps as soon as it is scanned..
-4 This world’s oceans are bioluminescent, and are hauntingly beautiful at night.
-5 Every 81 minutes, there is a burst of interference on all radio spectrums, originating from somewhere on the surface.
-6 There is a plant on this world that can be made into a powerful drug that increases intelligence, and removes the need for sleep. However, it seems to have a curious effect on DNA over time, causing physical mutations that the subject is blind to.
-7 This world is protected by a force shield which can severely damage any ships who try to land without knowing the secret codes. If there is a local civilization with a TR below 9, then they are not aware of the shield, and could not have built it.
-8 There appears to be a large number of destroyed robot drones on largest moon or nearby asteroid. 2d6 of them are still active, and will launch to attack any ship that approaches.
-9 There appears to be a hive on the surface of the world, and a large number of non-native insectoid aliens.
-10 What was that? It looked like a wormhole opened for a second, just outside the planet’s orbit..?
-11 This world’s star is a “star whale” breeding ground. There will be 1d4 whales in the hot zone of the system, ‘Grazing’ (absorbing stellar radiation from the brightest star in the system).
-12 There appears to be a large mirrored silver sphere floating on the surface of this planet's star.
-13 There is a decrepit orbital station in a decaying orbit.
-14 There are a number of approximately 1,000-meter tall clusters of crystals on the planet’s surface.
-15 There is a species of herd animal on this world, that appears to graze in large and oddly precise geometric patterns.
-16 There is a ship or space station in orbit (TR 13) and is in perfect working order. Its only inhabitants are 3d8 small multi-legged robots. The original owners have been gone many decades, but the robots have kept the ship in perfect condition, awaiting their return. They are programmed to take care of their masters’ every need, and will eagerly try to service the PCs, as they are guests. Unfortunately, their builders were alien, and have tastes and needs that are unpleasant or even lethal to other species. The robots will not allow any technology to be taken from the ship, and any attempt to do so, (or damage the ship or robots) will cause them to switch to defense mode and attack the PCs directly, as well as decompress the ship.
-17 Curious effect of this planet's atmosphere and its star's light makes the color red appear to be blue. PCs will not notice it until they are on the surface.
+
 18 Upon entering the planet’s range, a badly distorted radio signal will frantically warn the ship to not land there ‘again’. The voice sounds eerily like that of one of the PCs.
 19 On the southern continent, there is an isolated community of TR0 savages who worship a curious 7 sided pillar jutting out of the plains. If the PCs approach, they will have to convince the savages to allow them to examine the pillar, which hums slightly and can cause nosebleeds. Any PCs who spend more than an hour in its presence will all have an identical vivid dream about a rich and beautiful undiscovered world 5d10 parsecs away.
 20 The surface of this world is pockmarked with what appear to be ancient craters. There are remnants of a human civilization here (several TR 8 ruined cities) but no immediately detectable inhabitants.
@@ -102,3 +118,5 @@ Roll Phenomenon
 99 There is a comet in this system that is quite large. If they check, the party will find that the comet is going to collide with the a world in the system in about 4 weeks.
 00 One of the planets in this system gives off strange energy readings. Due to an ancient alien experiment, there is a temporal fracture on the planet, centered on the ruins of the old alien research complex. Different areas of the planet’s surface have time moving at different rates, or skipping out of order. (Some of the aliens are still trapped in a frozen moment of time at the center of the complex.) PCs won’t notice the timeskip effect unless they separate from each other. Each separate group will gain or lose 1d20 -10 hours for every hour on the surface. Only those outside the planet’s atmosphere will be able to observe the correct rate at which time is passing.
 */
+
+

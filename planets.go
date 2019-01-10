@@ -29,6 +29,7 @@ type Planet struct {
 	alienAgenda                string
 	nextStep                   string
 	visitorContact             int
+	strangeness                string
 }
 
 func NewGardenPlanet(template int) *Planet {
@@ -775,8 +776,9 @@ func NewGardenPlanet(template int) *Planet {
 			p.visitorContact = visitor.id
 		}
 
-
 	}
+
+	p.strangeness = RandomStrangeness()
 	return &p
 }
 
@@ -891,6 +893,9 @@ func (p *Planet) toString() string {
 	}
 
 	str = str + p.Description + "\n"
+	if p.strangeness != "" {
+		str = str + p.strangeness + "\n"
+	}
 	return str
 }
 
