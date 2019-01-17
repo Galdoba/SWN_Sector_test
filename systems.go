@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"strconv"
 )
 
@@ -542,7 +543,7 @@ func (system *StarSystem) registerSystem() {
 
 func (system *StarSystem) fillOrbits() {
 	system.Planets = nil
-	plTracker := 0
+	//plTracker := 0
 
 	for i := range system.planetCode {
 		for j := 0; j < system.planetCode[i]; j++ {
@@ -558,10 +559,33 @@ func (system *StarSystem) fillOrbits() {
 				system.Planets = append(system.Planets, *NewOuterGasGigant(templ))
 			default:
 			}
-			system.Planets[plTracker].Name = system.Name + " " + romanNumberStr(plTracker+1)
-			plTracker++
+
+		//	system.Planets[plTracker].Name = system.Name + " " + romanNumberStr(plTracker+1)
+		//	plTracker++
 		}
 	}
+	fmt.Println("--func fillOrbits():")
+	fmt.Println("--                 :" + system.Note)
+	fmt.Println("--                 :system has " + strconv.Itoa(len(system.Planets)) + " planets")
+	if system.Note == "Asteroid Belt" {
+		fmt.Println("--                 :" + "Add asteroid belt here")
+		r := roll1dX(len(system.Planets), 0)
+		system.insertAsteroidBelt(r)
+	}
+	for i := range system.Planets {
+		system.Planets[i].Name = system.Name + " " + romanNumberStr(i+1)
+	}
+
+}
+
+func (s *StarSystem) insertAsteroidBelt(orbit int) {
+	// s = append(s, 0 /* use the zero value of the element type */)
+	// copy(s[i+1:], s[i:])
+	// s[i] = x
+	asterBelt := NewAsteroidBelt(0)
+	s.Planets = append(s.Planets, *asterBelt)
+	copy(s.Planets[orbit+1:], s.Planets[orbit:])
+	s.Planets[orbit] = *asterBelt
 }
 
 func (s *StarSystem) toString() string {

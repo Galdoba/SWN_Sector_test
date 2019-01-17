@@ -804,6 +804,12 @@ func NewOuterGasGigant(template int) *Planet {
 	return &p
 }
 
+func NewAsteroidBelt(template int) *Planet {
+	p := Planet{}
+	p.Description = "Asteroid Belt."
+	return &p
+}
+
 func (p *Planet) createEcoSystem(emod int) string {
 	switch emod {
 	case 0:
@@ -955,7 +961,7 @@ func SetLifeform(template int) string {
 		return getRandomFromSliceStr(sl)
 	default:
 	}
-	return "Unknown"
+	return "Unknown " + strconv.Itoa(template) + " TODO: Придумать ченить"
 }
 
 func RandomLifeform() string {

@@ -115,3 +115,9 @@ func randomSeed() {
 // func someOtherFunction(a, b int, f func(int, int) int) int {
 // 	return f(a, b)
 // }
+
+
+//Insert into Slice
+// s = append(s, 0 /* use the zero value of the element type */)
+// copy(s[i+1:], s[i:])
+// s[i] = x
