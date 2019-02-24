@@ -1,0 +1,124 @@
+PROSPECTING (поиск) - что дает непонятно, больше тратит время.
+1. Проверка Pilot (8) - для того чтобы синхронизировать скорости корабля и астеройдного пояса (1 час)
+2. Проверка Program (8) - для того чтобы просканировать ближайшие астеройды.(6 часов)
+MINING (Копание)
+Чтобы избежать инцидента каждый шахтер раз в день кидает Exert/DEX, Work/CON или Work/INT со сложностью 6
+
+Каждый шахтер за день копает 1 тонну руды, что именно определяется тестом 2d6:
+2 Precious Metals (500) - Ценные металлы
+3-6 Common Ore (100) - Обычная руда
+7-11 Uncommon Ore (200) - Насыщенная руда
+12 Roll Exotic - Экзотика
+
+Экзотика:
+2d6
+2 Singular, valuable, stone (diamond, amethyst, ruby, and so forth): (10000) - самородки драгоценных камней.
+3 Singular precious metal (gold, platinum, aluminium, silver): (5000) - драг металлы
+4 Strange configuration/shape/size with a pleasing aesthetic value. - просто красивость
+5 C class material with very high concentration of organic compounds – (2500) - жила с большими вкроплениями органики
+6 C class material with very high concentration of organic compounds – (1000) - жила с вкроплениями органики
+7-8 Radioactives (plutonium, uranium, iridium, and so on). (1000) - радиоктивные изотопы
+9 C class material with very high concentration of organic compounds – (2500) - жила с большими вкроплениями органики
+10 Strange configuration/shape/size with a pleasing aesthetic value. - просто красивость
+11 C class material with very high concentration of organic compounds – (5000) - жила с очень большими вкроплениями органики
+12 Artefact – ОСТАНКИ КОРАБЛЯ!:
+
+Корабль:
+при результате 5+ останки корабля можно оттащить к обитаемому миру и продать за 1/20 стоймости корабля.
+//надо продумать систему рандомизации типов кораблей - пока будем думать исходя из того где найдено и кто там мог быть.
+2 Hazard! The ship’s reactor is damaged, the ship is about to break up, there is a virus loose aboard ship, an alien monster killed the crew... - Опасность! 
+3 Hazard! The ship’s reactor is damaged, the ship is about to break up, there is a virus loose aboard ship, an alien monster killed the crew...
+4 No Salvage: Nothing useful can be recovered. - Ничего полезного.
+5 Junk: Minor personal effects, spare parts, trophies and other junk. - В основном мусор,.2d6*10 тон запчастей.
+6 Fuel: 2D x 10 tons of fuel can be extracted from the salvage (not exceeding the derelict’s maximum capacity) - руда 2d6*10 тон руды (тип бросить по копательной таблицы, при 12 бросить еще 1 раз)
+7 Equipment: Items such as vacc suits, medical supplies, weapons, with a total value of 2D x Cr2000. - Экипировка (скафандры/личное оружие/фармацевтика) на 2d6*2000 кредитов
+8 Cargo: 2D tons of the derelict’s cargo. Roll D66 on the Trade Goods table (page 88) to determine the type. - 2d6 тон случайного товара
+9 Considerable Cargo: 2D x 10 tons of cargo (up to the derelict’s maximum cargo).- 2d6*10 тон случайного товара
+10 Interesting Artefact: An alien relic, useful personal data, mail cannister or other adventure hook – or maybe a survivor in a low berth. - какая-то хрень для сюжета
+11 Fittings: Weapons turrets, ship’s computers or air/raft, with a total value of 2D x Cr250000 - корабельные системы/орудия суммарной стоймостью до 2d6*250000 кредитов.
+12 Ship: The ship is potentially repairable.  - корабль может быть починен (требуется ремонт всех систем и всех Хит Пойнтов).
+
+Инциденты:
+Mining Incident
+2 Fall, collision or other catastrophe ruptures Vacc Suit or life support. Traveller sustains 4D damage. 
+- разгерметизация скафа - урон 4d6
+3 Tether-line damaged or severed. Traveller must make an Average (8+) Athletics (dexterity) check (DEX) to gain the safety of his vessel. If failed, and if no backup harness or tether is available, the Traveller tumbles into space. 
+- разрыв страховочного тросса. Exert/DEX (8) чтобы добраться до корабля. при провале шахтера уносит в космос.
+
+4 Sprain or pulled muscle halves the yield mined by the Traveller for the next 1D watches 
+- растяжение мышцы - этот шахтер добывает половину нормы в следующие 1d6 дней.
+5 Rip or tear to Vacc Suit forces the Traveller to return to ship for repairs. Roll 1D to determine how many hours into the watch the accident occurred. 
+- повреждение скафандра вынуждает шахтера вернуться на корабль (сегодня он ничего не накопал)
+
+6 Manual mining equipment malfunctions. Repair can be done in situ if the Traveller succeeds at an Average (8+) Mechanics check (1D hours, INT). If the repair fails, the Traveller is forced to return to his ship to make repairs.
+-неполадки с буром. Fix/INT (8) чтобы починить на месте, иначе шахтер возвращается на корабль без руды
+
+7 Drilling strikes an undiscovered pocket of gas which is released with explosive force. The Traveller must make an Average (8+) Athletics (dexterity) check (DEX) to avoid effects of the explosion. Otherwise result is as for entry 3.
+-прорыв газового кармана. Exert/DEX (8) чтобы увернуться, при провале см. пункт 3 
+
+8 A vital piece of equipment is dropped or damaged, causing it to tumble into space. To retrieve the equipment, the Traveller must either make an Average (8+) Athletics (dexterity) check (DEX) to follow the tumbling equipment into the vacuum, or use some other means (such as a drone or small craft) to retrieve it. If the attempt fails, the equipment is lost.
+- Бур выскользнул из рук Exert/DEX (8) чтобы его вернуть, иначе оборудование потеряно до возвращения в порт.
+
+9 The Traveller’s limb becomes trapped in a fissure in the body’s surface. Freeing the Traveller requires an Average (8+) Survival check (1D hours, STR). The Traveller is unable to free himself.
+-конечность шахтера застряла в проломе. чтобы освободить его необходима проверка Survive/STR (8) в течении 1d6 часов. (Сам шахтер освободиться не может)
+
+10 Loose debris from the body flies out and damages the spacecraft’s sensors or avionics. The damage is not extreme, but requires 1D hours to repair.
+- осколки повреждают сенсоры корабля. Ничего критичного но ремонт займет 1 человека на весь день.
+
+11 Mining proves to be far more arduous than anticipated owing to the density and composition of the asteroid. The yield extracted this watch is halved.
+-ошибка в расчетах/скаировании. добыча в 2 раза ниже ожидаемой.
+
+12 Roll twice on this table.
+-бросить кризис 2 раза.
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Я вижу 2 основных теста: 
+1: тест на кризис и эффективность работы
+Exert/DEX, Work/CON или Work/INT 
+2-5 - Кризис
+6-9 - Штатная работа
+10-13 - Увеличенная эффективность по объему (для старта возьмем х2)
+14+ - Экзотика
+
+И тест на поиск Месторождения 1 раз на месте. (чтобы повторить тест надо перелететь внутри системы в любое другое место)
+Program/INT (грамотная настройка сканеров), Может быть подойдет Work/WIS (опытный шахтер чует жилы интуитивно) или Notice/CON (постоянное и монотонное перебирание огромных массивов данных от сканеров) 
+Проведя этот тест мы находим Месторождение:
+2-5 - Рудный Шлак
+6-7 Бедная Руда
+8-9 Обычная Руда
+10-11 - Богатая руда
+12-13 - Самородная жила
+14-15 - Редкие Изотопы
+
+Пример: У нас базовый Шахтерский корабль (купец с экстрактором и экипажем в 1 капитан-пилота и 5 шахтеров).
+То есть Капитан ставит себе задачу: хочу накопать Богатой руды. После чего бросает тест поиска (+2 за счет характеристик) до тех пор пока у него не будет значение больше 9. 
+В первом регионе у него 1 и 1 с бонусом 2 = 4. он находит подходящий для разработки астеройд, но в его составе нет ничего ценного. Чтобы повторить поиск Корабль должен переместиться в другую точку в системе.
+Во второй раз выпадает 5 и 6 с бонусом 2 = 13!! Это даже лучше чем то что искал Капитан. Теперь когда начнется разработка астеройда каждый шахтер будет копать в среднем 1 Тонну Драгметаллов в день общей стоймостью 5*1000 = 5000 кредитов. Осталось только оценить объемы месторождения.
+
+Размер месторождения: для старта предлагаю взять что-то типа 12d6*10 тонн. Так в среднем размер будет стремиться к 360-420 но будет всегда в пределах 120-600 тон. Числа произвольные и вполне обсуждаемые. Недокопанное месторождение можно всегда застолбить поставив маяк (повод для проверки на наличие пиратской засады) и вернуться к его разработке после вывоза уже накопанного на ближайшую планету или станцию для продажи.
+
+Пример: Капитан запускает программу анализа, которая быстро оценивает астеройд. Программа сообщает что на астеройде можно добыть 380 Тон Драгоценных металов. Он принимает решение остаться тут и команда приступает к разработке. Трюм корабля 250 Тон, который 5 шахтеров заполняют за 50 дней непрерывной работы. По завершению работ на астеройде еще остается 130 тон золота, которые капитан намерен собрать следующим рейсом. а сейчас он летит на торговую станцию в соседней системе где намерен предлажить 250 тон товара с базовой стоймостью 1000 кредитов (надеясь получить около 250000 кредитов за 2 месяца работы). Основная сложность теперь долететь до пункта назначения, не попав в лапы пиратов которые могли засечь одиного шахтера еще несколько недель назад и не торопясь собрать отряд для быстрого захвата корабля груженного золотом. Команда корабля может поднять бунт считая что делить четверть миллиона на пятерых будет куда приятнее чем получить жалкие 1800 за работу.на капитана.
+
+
+
+Добываемые Ресурсы:
+Рудный Шлак (50)
+Бедная руда (100)
+Обычная руда (200)
+Богатая руда (500)
+Сомородная жила Драгметалла (1000)
+Естественнобразовавшиеся Сплавы/Минералы(2000)
+Редкие Изотопы (2500)
+Естественнобразовавшиеся Уникальные Сплавы (5000)
+Цифры взяты из Suns of Gold . И соответствуют условиям торговли и описаниям товаров.
+Рудный шлак - Mineral, Low Tech, Bulky, Common  - модификатор стоймости (-3) - базовая цена 500 за 10 тон (50 за тонну)
+Бедная Руда - Mineral, Low Tech, Bulky  - модификатор стоймости (-2) - базовая цена 1000 за 10 тон (100 за тонну)
+Обычная руда - Mineral, Bulky - модификатор стоймости (-1) - базовая цена 2000 за 10 тон (200 за тонну)
+Богатая Руда- Mineral, Rare, Bulky  - модификатор стоймости (0) - базовая цена 5000 за 10 тон (500 за тонну)
+Самородная жила Драгметалла- Mineral, Bulky, Luxury  - модификатор стоймости (1) - базовая цена 10000 за 10 тон (1000 за тонну)
+Естественнобразовавшиеся Сплавы/Минералы - Mineral модификатор стоймости (-1) - базовая цена 2000 за 1 тонну
+Редкие изотопы - Mineral, Bulky, Luxury, Rare модификатор стоймости (2) - базовая цена 25000 за 10 тон (2500 за тонну)
+Естественнобразовавшиеся Уникальные Сплавы - Mineral, Rare модификатор стоймости (0) - базовая цена 5000 за 1 тонну
