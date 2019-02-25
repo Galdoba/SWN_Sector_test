@@ -28,6 +28,10 @@ func (t *timer) addHour() {
 	}
 }
 
+func (t *timer) addDay() {
+	t.days++
+}
+
 func (t *timer) showTime() string {
 	return "Day: " + strconv.Itoa(t.days) + " Time: " + strconv.Itoa(t.hours) + ":00"
 }
@@ -56,32 +60,50 @@ func (mnr *miner) Crisis() bool {
 	return true
 }
 
-func (mnr *miner) Mine() {
-	r := rollXdY(2, 6)
-	if r == 2 {
-		mnr.mined = mnr.mined + 500.0*mnr.efficiency
-		fmt.Println("Miner", mnr.id+1, "mined Precious Metals")
-		fmt.Println("Miner", mnr.id+1, "mined total:", mnr.mined)
+func (mnr *miner) Mine(ast *ateroidData) {
+	mnr.efficiency = mnr.efficiency + 0.1
+	if mnr.efficiency > 1.0 {
+		mnr.efficiency = 1.0
+	}
+	if ast.asteroidYeld < 0 {
 		return
 	}
-	if r < 7 {
-		mnr.mined = mnr.mined + 100.0*mnr.efficiency
-		fmt.Println("Miner", mnr.id+1, "mined Common Ore")
-		fmt.Println("Miner", mnr.id+1, "mined total:", mnr.mined)
+	if mnr.efficiency < 0.001 {
+		fmt.Println("Miner", mnr.id+1, "в лазарете и не способен копать", mnr.efficiency)
 		return
 	}
-	if r < 12 {
-		mnr.mined = mnr.mined + 200.0*mnr.efficiency
-		fmt.Println("Miner", mnr.id+1, "mined Uncommon Ore")
-		fmt.Println("Miner", mnr.id+1, "mined total:", mnr.mined)
+
+	r := rollXdY(2, 6) + (mnr.skill)
+	if r < 6 {
+		mnr.efficiency = mnr.efficiency - float64(rollXdY(1, 4))
+		mnr.mined = mnr.mined + 0.0*mnr.efficiency
+
+		fmt.Println("Miner", mnr.id+1, "mined Nothing")
+		fmt.Println("Roll Crisis-----------------------------------------------CRISIS!!!")
 		return
 	}
-	if r == 12 {
-		mnr.mined = mnr.mined + 1000.0*mnr.efficiency
-		fmt.Println("Miner", mnr.id+1, "mined Exotic")
+	if r < 10 {
+		mnr.mined = mnr.mined + 1.0*mnr.efficiency
+
+		fmt.Println("Miner", mnr.id+1, "mined 1 Ton")
 		fmt.Println("Miner", mnr.id+1, "mined total:", mnr.mined)
+		ast.asteroidYeld = ast.asteroidYeld - 1.0*mnr.efficiency
 		return
 	}
+	if r < 14 {
+		mnr.mined = mnr.mined + 1.0*mnr.efficiency
+
+		fmt.Println("Miner", mnr.id+1, "mined 1.0 Tons")
+		fmt.Println("Miner", mnr.id+1, "mined total:", mnr.mined)
+		ast.asteroidYeld = ast.asteroidYeld - 1.0*mnr.efficiency
+		return
+	}
+	mnr.mined = mnr.mined + 1.0*mnr.efficiency
+	fmt.Println("Miner", mnr.id+1, "mined Exotic-----------------------------------------------EXOTIC!!!")
+	fmt.Println("Miner", mnr.id+1, "mined total:", mnr.mined)
+	ast.asteroidYeld = ast.asteroidYeld - 1.0*mnr.efficiency
+	return
+
 }
 
 func foundType(index int) string {
@@ -101,6 +123,25 @@ func foundType(index int) string {
 		return "Самородная жила"
 	}
 	return "Редкие Изотопы"
+}
+
+func orePrice(ore string) float64 {
+	if ore == "Рудный Шлак" {
+		return 50
+	}
+	if ore == "Бедная Руда" {
+		return 100
+	}
+	if ore == "Обычная Руда" {
+		return 200
+	}
+	if ore == "Богатая руда" {
+		return 500
+	}
+	if ore == "Самородная жила" {
+		return 1000
+	}
+	return 2500
 }
 
 func lifeSupportStatus(currentCrew, crewMax int, timer *timer) (string, int) {
@@ -123,13 +164,16 @@ func main() {
 	fmt.Println(spikeDrive, oreLevel, oreLevelInt, mSkill)
 	asteroidFound := false
 	asteroidType := ""
-	asteroidSize := float64(rollXdY(10, 6) * 10)
+	asteroidSize := float64(rollXdY(10, 6) * rollXdY(1, 1))
 	for !asteroidFound {
 		fmt.Println(timer.showTime(), " Ищем месторождение...")
-		lsReserveStr, _ := lifeSupportStatus(minerCrew, crewMax, timer)
+		lsReserveStr, lsRI := lifeSupportStatus(minerCrew, crewMax, timer)
+		if lsRI < minerCrew*3 {
+			break
+		}
 		fmt.Println(lsReserveStr)
 		r := rollXdY(2, 6)
-		searchMod := (mSkillInt - 1) * 2
+		searchMod := mSkillInt
 		fmt.Println("Бросок: ", r, searchMod)
 		searchResult := r + searchMod
 		searchTarget := 2 + (oreLevelInt * 2)
@@ -140,14 +184,15 @@ func main() {
 		}
 		if searchResult > searchTarget-1 {
 			asteroidFound = true
-			asteroidType = foundType(searchResult)
+
 		}
+		asteroidType = foundType(searchResult)
 	}
 	fmt.Println(timer.showTime())
 	fmt.Println("Начинаем разработку нового астеройда...")
 	fmt.Println("Тип:", asteroidType)
 	fmt.Println("Запасы:", asteroidSize, "тон")
-
+	ast := NewAsteriod(asteroidSize, asteroidType)
 	var crew []miner
 	for i := totalMiners; i < minerCrew; i++ {
 		crew = append(crew, *NewMiner(mSkillInt, i))
@@ -156,8 +201,64 @@ func main() {
 	}
 
 	fmt.Println(timer.showTime(), lifeSupportReserve)
+	yeld := ast.asteroidYeld
 
-	for i := range crew {
-		crew[i].Mine()
+	for yeld > 0.0 {
+		ldR, lsI := lifeSupportStatus(minerCrew, crewMax, timer)
+		if lsI < minerCrew*3 {
+			fmt.Println(timer.showTime(), ldR, lsI)
+			fmt.Println("Корабль возвращается...")
+			break
+		}
+		for i := range crew {
+			crew[i].Mine(ast)
+			yeld = ast.asteroidYeld
+			//fmt.Println(ast)
+		}
+		timer.addDay()
+
+		fmt.Println(timer.showTime(), ldR, lsI)
 	}
+	fmt.Println("ИТОГО:")
+	minedTotal := 0.0
+	for i := range crew {
+		minedTotal = minedTotal + crew[i].mined
+	}
+	cost := minedTotal * orePrice(asteroidType)
+	fmt.Println("накопано на:", int(cost), "всего", int(minedTotal), "тон")
+	zp := timer.days * minerCrew * payGrade(mSkillInt)
+	fmt.Println("затраты на зарплату:", zp)
+	ls := timer.days * minerCrew * 20
+	fmt.Println("затраты на жизнеобеспечение:", ls)
+	fmt.Println("---------------")
+	fmt.Println("Возможная прибыль:", int(cost)-zp-ls)
+
+}
+
+func payGrade(i int) int {
+	switch i {
+	case 0:
+		return 10
+	case 1:
+		return 30
+	case 2:
+		return 100
+	case 3:
+		return 300
+	case 4:
+		return 1000
+	}
+	return 3000
+}
+
+type ateroidData struct {
+	asteroidYeld float64
+	asteroidType string
+}
+
+func NewAsteriod(size float64, asType string) *ateroidData {
+	ast := &ateroidData{}
+	ast.asteroidType = asType
+	ast.asteroidYeld = size
+	return ast
 }
